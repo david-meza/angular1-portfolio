@@ -6,6 +6,7 @@
 
 <md-list>
   <md-list-item ng-repeat="route in routes" ui-sref="{{ ::route.url }}" class="menu-item">
+    <div class="ink-bar" ng-show="activeRoute === route.url"></div>
     <md-icon md-svg-icon="{{ ::route.icon }}" class="route-icon"></md-icon>
     <span flex>{{ ::route.name }}</span>
   </md-list-item>

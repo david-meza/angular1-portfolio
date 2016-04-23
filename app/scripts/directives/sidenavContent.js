@@ -7,7 +7,17 @@
     return { 
       restrict: 'E',
       templateUrl: 'views/directives/sidenav-content.html',
-      controller: ['$scope', function ($scope) {
+      controller: ['$scope', '$state', function ($scope, $state) {
+
+        function getCurrentState() {
+          return $state.current.name;
+        }
+
+        function updateLocalState(newValue) {
+          $scope.activeRoute = newValue;
+        }
+
+        $scope.$watch(getCurrentState, updateLocalState);
 
         $scope.routes = [
           { name: 'About',      icon: 'routes:about',      url: 'about'},
@@ -16,10 +26,6 @@
           { name: 'Experience', icon: 'routes:experience', url: 'experience'},
           { name: 'Contact',    icon: 'routes:contact',    url: 'contact'}
         ];
-
-        $scope.toggleList = function (listName) {
-          $scope.currentList = $scope.currentList === listName ? '' : listName;
-        };
 
       }]
     };
