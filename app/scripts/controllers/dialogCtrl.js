@@ -1,18 +1,21 @@
-'use strict';
+(function(angular) {
 
-angular.module('appControllers').controller('DialogCtrl', ['$scope', '$mdDialog', 'amenitiesService',
-  function DialogCtrl($scope, $mdDialog, amenitiesService) {
-    $scope.activities = amenitiesService.activities.categoriesArr;
+  'use strict';
 
-    $scope.hide = function() {
-      $mdDialog.hide();
-    };
+  angular.module('appControllers').controller('DialogCtrl', ['$scope', '$mdDialog',
+    function DialogCtrl($scope, $mdDialog) {
 
-    $scope.cancel = function() {
-      $mdDialog.cancel();
-    };
+      $scope.hide = function() {
+        $mdDialog.hide();
+      };
 
-    $scope.answer = function(answer) {
-      $mdDialog.hide(answer);
-    };
-  }]);
+      $scope.cancel = function() {
+        $mdDialog.cancel();
+      };
+
+      $scope.answer = function(answer) {
+        $mdDialog.hide(answer);
+      };
+    }]);
+
+})(window.angular);

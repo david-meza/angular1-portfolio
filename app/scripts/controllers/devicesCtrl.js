@@ -1,14 +1,20 @@
-'use strict';
+(function(angular) {
 
-angular.module('appControllers').controller('devicesCtrl', ['$scope', 'deviceService',
-	function($scope, deviceService){
+  'use strict';
 
-    $scope.isMobile = deviceService.isMobile;
+  angular.module('appControllers').controller('devicesCtrl', ['$scope', 'deviceService', '$state',
+    function($scope, deviceService, $state){
 
-    $scope.activeTab = deviceService.activeTab;
+      $scope.route = $state.current.name;
 
-    $scope.showTab = function (tab) {
-      return $scope.isMobile() && $scope.activeTab.name !== tab;
-    };
+      $scope.isMobile = deviceService.isMobile;
 
-}]);
+      $scope.activeTab = deviceService.activeTab;
+
+      $scope.showTab = function (tab) {
+        return $scope.isMobile() && $scope.activeTab.name !== tab;
+      };
+
+  }]);
+
+})(window.angular);

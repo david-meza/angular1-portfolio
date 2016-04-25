@@ -1,25 +1,30 @@
-'use strict';
+(function(angular) {
 
-angular.module('appControllers').controller('navbarCtrl', ['$scope', '$rootScope', 'deviceService', '$mdSidenav',
-	function ($scope, $rootScope, deviceService, $mdSidenav) {
-    
-    $scope.title = "Park Locator";
-    // Start the circular progress icon
-    $scope.progress = 'indeterminate';
+  'use strict';
 
-    $scope.activeTab = deviceService.activeTab;
-    $scope.isMobile = deviceService.isMobile;
+  angular.module('appControllers').controller('navbarCtrl', ['$scope', '$rootScope', 'deviceService', '$mdSidenav',
+    function ($scope, $rootScope, deviceService, $mdSidenav) {
 
-    $scope.toggleSidenav = function () {
-      $mdSidenav('left').toggle();
-    };
-
-    $rootScope.$on('loading:progress', function(){
+      $scope.title = "David Meza";
+      // Start the circular progress icon
       $scope.progress = 'indeterminate';
-    });
 
-    $rootScope.$on('loading:finish', function(){
-    	$scope.progress = undefined;
-    });
+      $scope.activeTab = deviceService.activeTab;
+      $scope.isMobile = deviceService.isMobile;
 
-}]);
+      $scope.toggleSidenav = function () {
+        $mdSidenav('left').toggle();
+      };
+
+      $rootScope.$on('loading:progress', function(){
+        $scope.progress = 'indeterminate';
+      });
+
+      $rootScope.$on('loading:finish', function(){
+        $scope.progress = undefined;
+      });
+
+    }
+  ]);
+
+})(window.angular);

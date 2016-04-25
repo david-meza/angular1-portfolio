@@ -1,27 +1,12 @@
-<header class="nav-header">
-  <a ng-href="https://parks.raleighnc.gov" target="_blank" class="parks-logo">
-    <img src="img/icons/parks-logo-white.svg" alt="Parks Logo" />
+<header class="nav-header layout-row">
+  <a ui-sref="home" class="flex">
+    <md-icon md-svg-icon="self-logo" aria-label="My logo" class="my-logo"></md-icon>
   </a>
 </header>
 
 <md-list>
-  
-  <md-list-item ng-click="toggleList('location')" class="md-secondary menu-item">
-    <span flex>Set My Location</span>
-    <md-icon md-font-icon="fa-chevron-down" class="fa light list-icon" ng-class="{ rotate: currentList === 'location' }"></md-icon>
+  <md-list-item ng-repeat="route in routes" ui-sref="{{ ::route.url }}" class="menu-item">
+    <md-icon md-svg-icon="{{ ::route.icon }}" class="route-icon"></md-icon>
+    <span flex>{{ ::route.name }}</span>
   </md-list-item>
-  <location-selection ng-cloak class="layout-column flex selection-menu" ng-show="currentList === 'location'"></location-selection>
-
-  <md-list-item ng-click="toggleList('activities')" class="md-secondary menu-item">
-    <span flex>Choose an Activity</span>
-    <md-icon md-font-icon="fa-chevron-down" class="fa light list-icon" ng-class="{ rotate: currentList === 'activities' }"></md-icon>
-  </md-list-item>
-  <activities-selection ng-cloak class="layout-column flex selection-menu activities-selection" ng-show="currentList === 'activities'"></activities-selection>
-
-  <md-list-item ng-click="toggleList('parks')" class="md-secondary menu-item">
-    <span flex>Find a Park</span>
-    <md-icon md-font-icon="fa-chevron-down" class="fa light list-icon" ng-class="{ rotate: currentList === 'parks' }"></md-icon>
-  </md-list-item>
-  <park-selection ng-cloak class="layout-column flex selection-menu" ng-show="currentList === 'parks'"></park-selection>
-
 </md-list>

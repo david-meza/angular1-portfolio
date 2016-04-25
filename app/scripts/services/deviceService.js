@@ -1,26 +1,30 @@
-'use strict';
+(function(angular) {
 
-angular.module('appServices').factory('deviceService', ['$window', 
-  function($window){
+  'use strict';
 
-    var _width = $window.innerWidth;
-    var activeTab = { name: 'search' };
+  angular.module('appServices').factory('deviceService', ['$window', 
+    function($window){
 
-    function isMobile() {
-      return _width < 768;
-    }
+      var _width = $window.innerWidth;
+      var activeTab = { name: 'search' };
 
-    function scrollTo(target) {
-      var contentArea = angular.element(document.getElementById('main-scrollable'));
-      var ngTarget = angular.element(document.getElementById(target));
-      contentArea.scrollToElementAnimated(ngTarget);
-    }
+      function isMobile() {
+        return _width < 768;
+      }
+
+      function scrollTo(target) {
+        var contentArea = angular.element(document.getElementById('main-scrollable'));
+        var ngTarget = angular.element(document.getElementById(target));
+        contentArea.scrollToElementAnimated(ngTarget);
+      }
+    
+
+    return {
+      isMobile: isMobile,
+      activeTab: activeTab,
+      scrollTo: scrollTo
+    };
+
+  }]);
   
-
-	return {
-    isMobile: isMobile,
-    activeTab: activeTab,
-    scrollTo: scrollTo
-	};
-
-}]);
+})(window.angular);

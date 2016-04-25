@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="projects" viewBox="0 0 50 50" fill="rgb(52, 73, 94)">
+	<rect x="7" y="7" fill="#1976D2" width="29" height="33"/>
+	<rect x="11" y="8" fill="#42A5F5" width="1" height="31"/>
+	<rect x="15" y="8" fill="#42A5F5" width="1" height="31"/>
+	<rect x="19" y="8" fill="#42A5F5" width="1" height="31"/>
+	<rect x="23" y="8" fill="#42A5F5" width="1" height="31"/>
+	<rect x="27" y="8" fill="#42A5F5" width="1" height="31"/>
+	<rect x="31" y="8" fill="#42A5F5" width="1" height="31"/>
+	<rect x="8" y="11" fill="#42A5F5" width="27" height="1"/>
+	<rect x="8" y="15" fill="#42A5F5" width="27" height="1"/>
+	<rect x="8" y="19" fill="#42A5F5" width="27" height="1"/>
+	<rect x="8" y="23" fill="#42A5F5" width="27" height="1"/>
+	<rect x="8" y="27" fill="#42A5F5" width="27" height="1"/>
+	<rect x="8" y="31" fill="#42A5F5" width="27" height="1"/>
+	<rect x="8" y="35" fill="#42A5F5" width="27" height="1"/>
+	<polygon fill="#1565C0" points="36,40 36,15.172 35.586,15.586 14.172,37 17.172,40  "/>
+	<polygon fill="#1565C0" points="36,40 36,30 26,40 28.828,40  "/>
+	<rect x="15.858" y="25.757" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -12.4264 30)" fill="#FFA000" width="28.284" height="8.485"/>
+	<rect x="34.125" y="19.406" transform="matrix(0.7071 0.7071 -0.7071 0.7071 24.7996 -19.0591)" fill="#9E6400" width="2.563" height="2"/>
+	<rect x="31.656" y="22.314" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 73.1823 18.9994)" fill="#9E6400" width="2" height="4.685"/>
+	<rect x="24.656" y="29.314" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 66.1823 35.8989)" fill="#9E6400" width="2" height="4.685"/>
+	<rect x="20.406" y="33.125" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 60.8716 43.5986)" fill="#9E6400" width="2" height="2.563"/>
+	<rect x="27.406" y="26.125" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 67.8717 26.6991)" fill="#9E6400" width="2" height="2.563"/>
+	<polygon fill="#1976D2" points="15.586,35.586 15,36.172 15,37.828 15.586,38.414 16,38.828 16,36 18,36 19,35 16.172,35  "/>
+	<polygon fill="#1976D2" points="27,39 28,39 28,38  "/>
+	<polygon fill="#1976D2" points="35,32 35,31 34,32  "/>
+	<polygon fill="#1976D2" points="32,39 32,36 35,36 35,35 32,35 32,34 30,36 31,36 31,39  "/>
+	<polygon fill="#1976D2" points="19,32.172 19,35 20,34 20,32 22,32 23,31 20.172,31  "/>
+	<polygon fill="#1976D2" points="27,24.172 27,27 28,26 28,24 30,24 31,23 28.172,23  "/>
+	<polygon fill="#1976D2" points="23,28.172 23,31 24,30 24,28 26,28 27,27 24.172,27  "/>
+	<polygon fill="#1976D2" points="31,20.172 31,23 32,22 32,20 34,20 35,19 32.172,19  "/>
+</svg>
