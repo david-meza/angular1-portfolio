@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+
+  <title>City of Raleigh Park Locator</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta charset="UTF-8" />
+  <meta name="description" content="Find parks closest to you in Raleigh">
+  <meta name="keywords" content="City of Raleigh, Park Locator, City of Raleigh Park Locator, parks, raleigh, pullen, park, recreation, things to do, activities, map" />
+  <meta name="author" content="David Meza" />
+  <meta property="og:title" content="City of Raleigh Park Locator" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://park-locator-esri.surge.sh" />
+  <meta property="og:description" content="Find parks closest to you in Raleigh" />
+  <meta property="fb:admins" content="jdmeza93"/>
+
+  <!-- build:css({.,app}) styles/vendor.css -->
+  <!-- bower:css -->
+  <link rel="stylesheet" href="bower_components/angular-material/angular-material.css" />
+  <!-- endbower -->
+  <link rel="stylesheet" href="styles/font-awesome.css">
+  <!-- endbuild -->
+
+  
+  <!-- build:css(.tmp) styles/park-locator.css -->
+  <link rel="stylesheet" href="styles/park-locator.css">
+  <!-- endbuild -->
+
+  <link rel="stylesheet" href="https://js.arcgis.com/3.16/esri/css/esri.css">
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-71382325-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+</head>
+
+
+<body ng-app="parkLocator" ng-cloak layout = "row">
+  
+  <md-sidenav class="gradient-primary md-sidenav-left md-whiteframe-z2" id="menu-sidenav"
+              md-component-id="left" md-is-locked-open="$mdMedia('gt-sm')">
+      
+      <sidenav-content></sidenav-content>
+    
+  </md-sidenav>
+  
+  <div id="main" layout="column" role="main" flex>
+    <ng-navbar></ng-navbar>
+
+    <ui-view layout="column" flex></ui-view>
+
+    <ng-footer></ng-footer>
+    <collapse-footer></collapse-footer>
+  </div>
+
+  <!-- build:js(.) scripts/vendor.js -->
+  <!-- bower:js -->
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+  <script src="bower_components/angular-simple-logger/dist/angular-simple-logger.js"></script>
+  <script src="bower_components/lodash/lodash.js"></script>
+  <script src="bower_components/angular-google-maps/dist/angular-google-maps.js"></script>
+  <script src="bower_components/angular-img-fallback/angular.dcb-img-fallback.js"></script>
+  <script src="bower_components/angular-animate/angular-animate.js"></script>
+  <script src="bower_components/angular-aria/angular-aria.js"></script>
+  <script src="bower_components/angular-messages/angular-messages.js"></script>
+  <script src="bower_components/angular-material/angular-material.js"></script>
+  <script src="bower_components/angular-scroll/angular-scroll.js"></script>
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:js({.tmp,app}) scripts/scripts.js -->
+  <!-- Angular App Modules -->
+  <script src="scripts/modules/services.js"></script>
+  <script src="scripts/modules/controllers.js"></script>
+  <script src="scripts/modules/filters.js"></script>
+  <script src="scripts/modules/directives.js"></script>
+
+  <!-- Services -->
+  <script src="scripts/services/deviceService.js"></script>
+  <script src="scripts/services/mapService.js"></script>
+  <script src="scripts/services/esri.js"></script>
+  <script src="scripts/services/parkService.js"></script>
+  <script src="scripts/services/amenitiesService.js"></script>
+  <script src="scripts/services/classesService.js"></script>
+  
+  <script src="scripts/services/httpInterceptor.js"></script>
+  
+  <!-- Filters -->
+  <script src="scripts/filters/parkAmenities.js"></script>
+  <script src="scripts/filters/selectedActivities.js"></script>
+  
+
+  <!-- Controllers -->
+  <script src="scripts/controllers/navbarCtrl.js"></script>
+  <script src="scripts/controllers/devicesCtrl.js"></script>
+  <script src="scripts/controllers/mapCtrl.js"></script>
+  <script src="scripts/controllers/autocompleteCtrl.js"></script>
+  <script src="scripts/controllers/dialogCtrl.js"></script>
+  <script src="scripts/controllers/parkCtrl.js"></script>
+  <script src="scripts/controllers/classesCtrl.js"></script>
+  <script src="scripts/controllers/sectionCtrl.js"></script>
+
+  <!-- Directives -->
+  <script src="scripts/directives/fadeUpWhenReady.js"></script>
+  <script src="scripts/directives/activitiesSelection.js"></script>
+  <script src="scripts/directives/locationSelection.js"></script>
+  <script src="scripts/directives/aerialToggle.js"></script>
+  <script src="scripts/directives/locationTracker.js"></script>
+  <script src="scripts/directives/parkSelection.js"></script>
+  <script src="scripts/directives/gmapsAddress.js"></script>
+  <script src="scripts/directives/mapActions.js"></script>
+  <script src="scripts/directives/sidenavContent.js"></script>
+  <script src="scripts/directives/navbar.js"></script>
+  <script src="scripts/directives/footer.js"></script>
+  <script src="scripts/directives/collapseFooter.js"></script>
+  <script src="scripts/directives/backToTop.js"></script>
+  <script src="scripts/directives/navbarFixed.js"></script>
+  <script src="scripts/directives/mainMap.js"></script>
+  <script src="scripts/directives/scrollingButtons.js"></script>
+  <script src="scripts/directives/classesInfo.js"></script>
+  <script src="scripts/directives/directionsMap.js"></script>
+
+  <!-- Main -->
+  <script src="scripts/app.js"></script>
+  <!-- endbuild -->
+
+  <script src="https://js.arcgis.com/3.16/"></script>
+
+</body>
+</html>

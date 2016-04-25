@@ -1,0 +1,15 @@
+<md-toolbar layout = "row" id = "navbar" class="gradient-primary">
+  <div class="md-toolbar-tools" layout="row" layout-align="start center">
+
+    <md-button class="md-icon-button" aria-label="open menu side nav" hide-gt-sm ng-click="toggleSidenav()">
+      <md-icon md-svg-icon="/img/icons/menu.svg"></md-icon>
+    </md-button>
+    
+    <h1 layout = "row">
+      <a ui-sref = "home">{{ ::title }}</a>
+    </h1>
+
+    <md-progress-circular class="md-accent md-hue-2 progress-spinner" md-mode="{{ progress }}" md-diameter="55"></md-progress-circular>
+  
+  </div>
+</md-toolbar>
