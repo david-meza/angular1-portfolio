@@ -38,7 +38,8 @@ a, a:hover, a:active, a:focus, a:visited {
   background: rgba(37,208,117,0.3);
 }
 
-img, h1, h2, h3, h4, h5, h6, #map-canvas {
+img, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
   -webkit-user-select: none;  
      -moz-user-select: none;    
       -ms-user-select: none;
@@ -970,15 +971,33 @@ html, body {
 
 }
 
-#navbar {
-  
-  h1 {
-    font-size: 24px;
+#main {
+  background-color: #EBEBEB;
+
+  .landing-text-main {
+    font-size: 6vw;
+    color: $primary;
   }
 
-  a:hover, a:focus {
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.85);
+  .landing-text-secondary {
+    font-size: 5vw;
+    color: lighten($primary, 10%);
+  }
+
+  .cta {
+    padding-left: 5vw;
+
+    .md-button {
+      margin: 12px 0;
+      padding: 8px 10vw;
+    }
+  }
+}
+
+#navbar {
+  
+  &.transparent-bar {
+    background-color: transparent;
   }
 
 }

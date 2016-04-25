@@ -63,16 +63,16 @@
 </head>
 
 
-<body ng-app="portfolio" ng-cloak layout="row">
+<body ng-app="portfolio" ng-cloak class="layout-row">
   
   <md-sidenav class="gradient-primary md-sidenav-left md-whiteframe-z2" id="menu-sidenav" md-component-id="left" md-is-locked-open="$mdMedia('gt-sm')">
       <sidenav-content></sidenav-content>
   </md-sidenav>
   
-  <div id="main" layout="column" role="main" flex>
+  <div id="main" class="layout-column flex">
     <ng-navbar></ng-navbar>
 
-    <ui-view layout="column" flex></ui-view>
+    <ui-view class="layout-column flex"></ui-view>
 
     <ng-footer></ng-footer>
     <collapse-footer></collapse-footer>

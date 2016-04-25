@@ -5,7 +5,6 @@
   angular.module('appControllers').controller('navbarCtrl', ['$scope', '$rootScope', 'deviceService', '$mdSidenav',
     function ($scope, $rootScope, deviceService, $mdSidenav) {
 
-      $scope.title = "David Meza";
       // Start the circular progress icon
       $scope.progress = 'indeterminate';
 

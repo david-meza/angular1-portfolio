@@ -36,7 +36,7 @@ angular.module('portfolio', ['appServices', 'appFilters', 'appControllers', 'app
       $stateProvider
         .state('home', {
           url: '/',
-          templateUrl: 'views/main.html',
+          templateUrl: 'views/states/landing.html',
           controller: 'devicesCtrl'
         })
         .state('about', {
