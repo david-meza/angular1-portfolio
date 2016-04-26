@@ -43,27 +43,27 @@ angular.module('portfolio', ['appServices', 'appFilters', 'appControllers', 'app
         })
         .state('about', {
           url: '/about',
-          templateUrl: 'views/main.html',
+          templateUrl: 'views/states/about.html',
           controller: 'devicesCtrl'
         })
         .state('blog', {
           url: '/blog',
-          templateUrl: 'views/main.html',
+          templateUrl: 'views/states/blog.html',
           controller: 'devicesCtrl'
         })
         .state('projects', {
           url: '/projects',
-          templateUrl: 'views/main.html',
+          templateUrl: 'views/states/projects.html',
           controller: 'devicesCtrl'
         })
         .state('experience', {
           url: '/experience',
-          templateUrl: 'views/main.html',
+          templateUrl: 'views/states/experience.html',
           controller: 'devicesCtrl'
         })
         .state('contact', {
           url: '/contact',
-          templateUrl: 'views/main.html',
+          templateUrl: 'views/states/contact.html',
           controller: 'devicesCtrl'
         });
 

@@ -125,20 +125,9 @@ img, h1, h2, h3, h4, h5, h6 {
   right: 10px;
   bottom: 25px;
   z-index: 21;
-
-  -webkit-transform: translateY(100px) scale(0,0);
-     -moz-transform: translateY(100px) scale(0,0);
-       -o-transform: translateY(100px) scale(0,0);
-      -ms-transform: translateY(100px) scale(0,0);
-          transform: translateY(100px) scale(0,0);
-
   opacity: 0;
-  -webkit-transition:  all 0.4s cubic-bezier(0.345, 0, 0.25, 1);
-  -moz-transition:     all 0.4s cubic-bezier(0.345, 0, 0.25, 1);
-  -o-transition:       all 0.4s cubic-bezier(0.345, 0, 0.25, 1);
-  -ms-transition:      all 0.4s cubic-bezier(0.345, 0, 0.25, 1);
-  transition:         all 0.4s cubic-bezier(0.345, 0, 0.25, 1);
-
+  @include transform( translateY(100px) scale(0,0) );
+  @include transition( all 0.4s cubic-bezier(0.345, 0, 0.25, 1) );
 
   .md-button {
     z-index: 22;
@@ -146,20 +135,11 @@ img, h1, h2, h3, h4, h5, h6 {
 
   &.bring-to-screen {
     opacity: 1;
-    -webkit-transform: translateY(0px) scale(1,1);
-       -moz-transform: translateY(0px) scale(1,1);
-         -o-transform: translateY(0px) scale(1,1);
-        -ms-transform: translateY(0px) scale(1,1);
-            transform: translateY(0px) scale(1,1);
+    @include transform( translateY(0px) scale(1,1) );
   }
 
   &.bring-to-screen.lower {
-    opacity: 1;
-    -webkit-transform: translateY(20px) scale(1,1);
-       -moz-transform: translateY(20px) scale(1,1);
-         -o-transform: translateY(20px) scale(1,1);
-        -ms-transform: translateY(20px) scale(1,1);
-            transform: translateY(20px) scale(1,1);
+    @include transform( translateY(20px) scale(1,1) );
   }
 }
 
@@ -179,12 +159,7 @@ md-icon {
   height: 25px;
   width: 100%;
   z-index: 5;
-
-  -webkit-transition:  visibility 0.4s, opacity 0.4s cubic-bezier(0.345, 0, 0.25, 1);
-  -moz-transition:     visibility 0.4s, opacity 0.4s cubic-bezier(0.345, 0, 0.25, 1);
-  -o-transition:       visibility 0.4s, opacity 0.4s cubic-bezier(0.345, 0, 0.25, 1);
-  -ms-transition:      visibility 0.4s, opacity 0.4s cubic-bezier(0.345, 0, 0.25, 1);
-  transition:          visibility 0.4s, opacity 0.4s cubic-bezier(0.345, 0, 0.25, 1);
+  @include transition( visibility 0.4s, opacity 0.4s cubic-bezier(0.345, 0, 0.25, 1) );
 
   &.show-button {
     opacity: 1;
@@ -306,11 +281,6 @@ p {
       md-card-content {
         padding: 8px;
       }
-
-      // .icon-name {
-      //   font-size: 14px;
-      //   white-space: normal;
-      // }
     }
 
   }
@@ -503,7 +473,7 @@ html, body {
     }
 
     &:hover, &:focus {
-      background-color: lighten($primary, 3%);
+      background-color: lighten($primary, 5%);
       .route-icon {
         @include transform( scale(1.5, 1.5) );
       }
