@@ -36,8 +36,8 @@
   <meta name="msapplication-TileImage" content="img/favicons/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
 
-  <script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55ee6fe14dd81787" async defer></script>
 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
   <!-- build:css({.,app}) styles/vendor.css -->
   <!-- bower:css -->
   <link rel="stylesheet" href="bower_components/angular-material/angular-material.css" />
@@ -65,8 +65,8 @@
 
 <body ng-app="portfolio" ng-cloak class="layout-row">
   
-  <md-sidenav class="gradient-primary md-sidenav-left md-whiteframe-z2" id="menu-sidenav" md-component-id="left" md-is-locked-open="$mdMedia('gt-sm')">
-      <sidenav-content></sidenav-content>
+  <md-sidenav class="gradient-primary md-sidenav-left md-whiteframe-z2" id="menu-sidenav" md-component-id="left">
+    <sidenav-content></sidenav-content>
   </md-sidenav>
   
   <div id="main" class="layout-column flex">
@@ -108,6 +108,7 @@
 
 
   <!-- Controllers -->
+  <script src="scripts/controllers/landingCtrl.js"></script>
   <script src="scripts/controllers/navbarCtrl.js"></script>
   <script src="scripts/controllers/devicesCtrl.js"></script>
   <script src="scripts/controllers/dialogCtrl.js"></script>
@@ -126,6 +127,8 @@
   <!-- Main -->
   <script src="scripts/app.js"></script>
   <!-- endbuild -->
+
+  <script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55ee6fe14dd81787" async defer></script>
 
 </body>
 </html>

@@ -1,9 +1,15 @@
-<md-content class="md-padding flex layout-column layout-align-center-stretch">
-  <h1 class="landing-text-main">Hi, I'm David Meza</h1>  
-  <h2 class="landing-text-secondary">Full-Stack Developer</h2>
-  <div class="cta">
-    <md-button class="md-accent md-raised">
-      Contact Me
-    </md-button>
+<md-content id="landing" class="md-padding flex layout-column layout-align-center-stretch">
+  <span class="flex"></span>
+  <h1 class="landing-text-main" fade-up-when-ready duration="1000" delay="500">Hi, I'm David Meza.</h1>  
+  <h2 class="landing-text-secondary" fade-up-when-ready duration="1000" delay="2000">I build full-stack web applications.</h2>
+  <span class="flex"></span>
+  <div class="cta layout-row layout-wrap layout-align-center-center" md-theme="altTheme" fade-up-when-ready duration="600" offset="0" delay="3500">
+    <md-button class="md-primary md-raised md-cornered cta-button" ui-sref="projects">See My Work</md-button>
+    
+    <span class="flex-100 layout-row layout-wrap layout-align-center-center">
+      <md-button class="md-fab custom-button" ng-repeat="site in socialSites" ng-href="{{::site.url}}" target="_blank">
+        <md-icon md-svg-icon="{{::site.icon}}" aria-label="{{::site.name}}"></md-icon>
+      </md-button>
+    </span>
   </div>
 </md-content>

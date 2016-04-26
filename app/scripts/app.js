@@ -17,15 +17,17 @@ angular.module('portfolio', ['appServices', 'appFilters', 'appControllers', 'app
 
   .config([ '$mdThemingProvider', function ($mdThemingProvider) {
     $mdThemingProvider.theme('altTheme')
-      .primaryPalette('purple')
+      .primaryPalette('deep-purple')
       .accentPalette('red')
-      .warnPalette('yellow');
+      .warnPalette('yellow')
+      .backgroundPalette('grey');
   }])
 
   .config([ '$mdIconProvider', function($mdIconProvider) {
     $mdIconProvider
       .defaultIconSet('img/icons/core.svg', 48)
-      .iconSet('routes', 'img/icons/routes.svg', 48);       
+      .iconSet('routes', 'img/icons/routes.svg', 48)       
+      .iconSet('social', 'img/icons/social.svg', 48);       
   }])
 
   .config(['$stateProvider', '$urlRouterProvider', 
@@ -37,7 +39,7 @@ angular.module('portfolio', ['appServices', 'appFilters', 'appControllers', 'app
         .state('home', {
           url: '/',
           templateUrl: 'views/states/landing.html',
-          controller: 'devicesCtrl'
+          controller: 'landingCtrl'
         })
         .state('about', {
           url: '/about',

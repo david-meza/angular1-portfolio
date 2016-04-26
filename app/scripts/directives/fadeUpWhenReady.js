@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('appDirectives').directive('fadeUpWhenReady', ['$document', function ($document) {
+angular.module('appDirectives').directive('fadeUpWhenReady', ['$document', '$timeout', function ($document, $timeout) {
   
   return { 
     restrict: 'A',
@@ -29,7 +29,11 @@ angular.module('appDirectives').directive('fadeUpWhenReady', ['$document', funct
           "-ms-transform":      "translateY(0)",
           "transform":          "translateY(0)"
         };
-        element.css(fadeup);
+        
+        $timeout(function(){
+          element.css(fadeup);
+        }, attr.delay || 0);
+        
       });
     
     }
