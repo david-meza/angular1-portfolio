@@ -1,9 +1,5 @@
-<div id="navbar" class="layout-row layout-align-start-center transparent-bar">
+<md-button class="md-fab md-accent button-top-left" aria-label="Open menu side nav" ng-click="toggleSidenav()">
+  <md-icon md-svg-icon="menu"></md-icon>
+</md-button>
 
-  <md-button class="md-icon-button md-primary" aria-label="Open menu side nav" ng-click="toggleSidenav()">
-    <md-icon md-svg-icon="menu"></md-icon>
-  </md-button>
-
-  <md-progress-circular class="md-accent md-hue-2 progress-spinner" md-mode="{{ progress }}" md-diameter="55"></md-progress-circular>
-
-</div>
+<md-progress-circular class="md-accent md-hue-2 progress-spinner button-top-right" md-mode="{{ progress }}" md-diameter="75"></md-progress-circular>

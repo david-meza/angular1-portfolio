@@ -7,7 +7,7 @@
     return { 
       restrict: 'E',
       templateUrl: 'views/directives/sidenav-content.html',
-      controller: ['$scope', '$state', function ($scope, $state) {
+      controller: ['$scope', '$state', '$mdSidenav', function ($scope, $state, $mdSidenav) {
 
         function getCurrentState() {
           return $state.current.name;
@@ -26,6 +26,10 @@
           { name: 'Experience', icon: 'routes:experience', url: 'experience'},
           { name: 'Contact',    icon: 'routes:contact',    url: 'contact'}
         ];
+
+        $scope.closeSidenav = function() {
+          $mdSidenav('left').close();
+        }
 
       }]
     };
