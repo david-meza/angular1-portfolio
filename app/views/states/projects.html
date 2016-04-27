@@ -7,10 +7,32 @@
 
 <md-content class="flex layout-padding">
 
-  <div class="layout-row layout-wrap layout-align-center-center">
-    <md-card>
+  <div class="layout-row layout-wrap layout-align-center-stretch">
+    <md-card ng-repeat="project in projects" flex="100" flex-gt-sm="45" flex-gt-md="30">
+      <md-card-header>
+        <md-card-avatar>
+          <md-icon class="md-avatar-icon" md-svg-icon="menu"></md-icon>
+        </md-card-avatar>
+        <md-card-header-text>
+          <span class="md-title">Title</span>
+          <span class="md-subhead">subhead</span>
+        </md-card-header-text>
+      </md-card-header>
+      <img ng-src="{{ ::project.image }}" fallback-src loading-src class="md-card-image" alt="Project image">
+      <md-card-title>
+        <md-card-title-text>
+          <span class="md-headline">{{ ::project.name }}</span>
+          <span class="md-subhead">{{ ::project.description }}</span>
+        </md-card-title-text>
+      </md-card-title>
+      <md-card-actions layout="row" layout-align="start center">
+        <md-button ng-href="{{ ::project.demoUrl }}" class="md-accent">Demo</md-button>
+        <md-button ng-href="{{ ::project.githubUrl }}" class="" >Source Code</md-button>
+      </md-card-actions>
       <md-card-content>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis at eum odit consequatur repellendus repellat doloremque omnis, beatae rem nostrum debitis eius nisi architecto blanditiis explicabo quod in pariatur nam.
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio officiis a saepe quae, sapiente minus, in, repudiandae voluptates optio at inventore! Quia totam quam necessitatibus nisi, voluptatum quos sed qui.
+        </p>
       </md-card-content>
     </md-card>
   </div>

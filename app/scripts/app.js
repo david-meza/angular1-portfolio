@@ -53,7 +53,7 @@
         .state('projects', {
           url: '/projects',
           templateUrl: 'views/states/projects.html',
-          controller: 'devicesCtrl'
+          controller: 'projectsCtrl'
         })
         .state('experience', {
           url: '/experience',

@@ -1,12 +1,12 @@
 {
-  "name": "angularPortfolio",
+  "name": "angular-portfolio",
   "version": "1.0.0",
   "author": "David Meza",
   "repository": "https://github.com/david-meza/angular1-portfolio",
   "dependencies": {
     "angular": "^1.5.5",
     "angular-ui-router": "^0.2.15",
-    "angular-img-fallback": "^0.1.3",
+    "angular-img-fallback": "git://github.com/dcohenb/angular-img-fallback.git#ba4a6d9071814b6955aa049cb09dcb4c75955820",
     "angular-animate": "^1.5.5",
     "angular-material": "^1.0.7",
     "angular-scroll": "^1.0.0"
