@@ -2,15 +2,38 @@
   <md-icon md-font-icon="fa-times" class = "fa fa-2x" aria-label="Close sidenav"></md-icon>
 </md-button>
 
+<div class="screen-light"></div>
+
+<div class="space">
+  <div class="ship">
+    <div class="ship-rotate">
+      <div class="pod"></div>
+      <div class="fuselage"></div>
+    </div>
+  </div>
+  <div class="mars">
+    <div class="tentacle"></div>
+    <div class="flag">
+      <div class="small-tentacle"></div>
+    </div>
+    <div class="planet">
+      <div class="surface"></div>
+      <div class="crater1"></div>
+      <div class="crater2"></div>
+      <div class="crater3"></div>
+    </div>
+  </div>
+</div>
+
 <header class="nav-header layout-row">
-  <a ui-sref="home" class="flex">
-    <h5 class="text-accent overlay-text" ng-cloak>{{ 'DM' }}</h5>
+  <a ui-sref="home" class="flex" ng-click="closeSidenav()">
+    <h5 class="text-accent initials-overlay" ng-cloak>{{ 'DM' }}</h5>
     <md-icon md-svg-icon="self-logo" aria-label="My logo" class="my-logo"></md-icon>
   </a>
 </header>
 
 <md-list>
-  <md-list-item ng-repeat="route in routes" ui-sref="{{ ::route.url }}" class="menu-item">
+  <md-list-item ng-repeat="route in routes" ui-sref="{{ ::route.url }}" ng-click="closeSidenav()" class="menu-item">
     <div class="ink-bar" ng-show="activeRoute === route.url"></div>
     <md-icon md-svg-icon="{{ ::route.icon }}" class="route-icon"></md-icon>
     <span flex>{{ ::route.name }}</span>
