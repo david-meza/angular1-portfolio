@@ -455,9 +455,9 @@ html, body {
 
     .initials-overlay {
       position: absolute;
-      font-size: 52px;
-      top: 77px;
-      left: 115px;
+      font-size: 29px;
+      top: 95px;
+      left: 113px;
       @include transform(translateX(-100px)); 
       opacity: 0;
       @include animation( slide-in-ltr 1s $out-cubic 8.5s 1 normal forwards );
