@@ -2,7 +2,7 @@
 
   'use strict';
 
-  angular.module('portfolio', ['appServices', 'appFilters', 'appControllers', 'appDirectives', 'ui.router', 'ngMaterial', 'duScroll', 'dcbImgFallback', 'ngAnimate'])
+  angular.module('portfolio', ['appServices', 'appFilters', 'appControllers', 'appDirectives', 'ui.router', 'ngMaterial', 'duScroll', 'dcbImgFallback', 'ngAnimate', 'ngMessages'])
 
     .value('duScrollDuration', 600)
     .value('duScrollOffset', 0)
@@ -47,7 +47,7 @@
         .state('about', {
           url: '/about',
           templateUrl: 'views/states/about.html',
-          controller: 'devicesCtrl'
+          controller: 'aboutCtrl'
         })
         .state('blog', {
           url: '/blog',
@@ -62,12 +62,12 @@
         .state('experience', {
           url: '/experience',
           templateUrl: 'views/states/experience.html',
-          controller: 'devicesCtrl'
+          controller: 'experienceCtrl'
         })
         .state('contact', {
           url: '/contact',
           templateUrl: 'views/states/contact.html',
-          controller: 'devicesCtrl'
+          controller: 'contactCtrl'
         });
 
     }]);

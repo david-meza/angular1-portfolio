@@ -1,0 +1,57 @@
+<toolbar title="Contact"></toolbar>
+
+<md-content class="flex layout-padding theme-background">
+
+  <div class="layout-row layout-align-center-stretch">
+    
+    <md-card class="contact-form">
+      <md-card-content>
+        <form name="contactForm">
+          
+          <md-input-container class="md-block">
+            <label>Name</label>
+            <md-icon md-svg-icon="person"></md-icon>
+            <input type="text" md-maxlength="50" name="name" ng-model="data.name" required>
+            
+            <div ng-messages="contactForm.name.$error">
+              <div ng-message="required">I need to know that I'm not speaking into the void in my reply.</div>
+              <div ng-message="md-maxlength">Woah, can I just call you Alex or something?</div>
+            </div>
+          </md-input-container>
+
+          <md-input-container class="md-block">
+            <label>Email</label>
+            <md-icon md-svg-icon="email-symbol"></md-icon>
+            <input required type="email" name="email" ng-model="data.email" minlength="10" maxlength="100" ng-pattern="/^.+@.+\..+$/" />
+            
+            <div ng-messages="contactForm.email.$error">
+              <div ng-message-exp="['required', 'minlength', 'maxlength', 'pattern']">
+                Your email must be between 10 and 100 characters long and look like an e-mail address.
+              </div>
+            </div>
+          </md-input-container>
+          
+          <md-input-container class="md-block">
+            <label>Message</label>
+            <md-icon md-svg-icon="pen"></md-icon>
+            <textarea ng-model="data.message" md-maxlength="1000" rows="5" name="message" md-select-on-focus required></textarea>
+            
+            <div ng-messages="contactForm.message.$error">
+              <div ng-message="required">Don't give me the silent treatment :(</div>
+              <div ng-message="md-maxlength">While I share your excitement, let's keep it succinct :)</div>
+            </div>
+          </md-input-container>
+
+        </form>
+      </md-card-content>
+
+      <md-card-actions class="layout-row layout-align-end-stretch">
+        <md-button class="md-primary md-raised capitalize send-button" ng-click="sendEmail()">
+          <md-icon md-svg-icon="routes:contact"></md-icon>
+          <span>Send</span>
+        </md-button>
+      </md-card-actions>
+    </md-card>
+  </div>
+
+</md-content>

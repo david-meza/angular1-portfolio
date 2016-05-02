@@ -20,7 +20,9 @@
       }
 
       function extractFeatures(response) {
-        console.log(response);
+        // Empty the array
+        _posts.splice(0, _posts.length);
+        
         if (response.status >= 200 && response.status < 300) {
           angular.forEach(response.data.payload.posts, extractIndividualPost, _posts);
           return _posts;
@@ -43,6 +45,7 @@
       }
 
       function getPosts() {
+        // Get the latest posts every time the controller is instantiated
         getListOfPosts().then(extractFeatures, logError);
         return _posts;
       }

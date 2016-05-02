@@ -1,11 +1,6 @@
-<md-toolbar md-scroll-shrink class="md-tall">
-  <span class="flex"></span>
-  <div class="md-toolbar-tools layout-row layout-align-end-center">
-    <h3 class="toolbar-title">Stories</h3>
-  </div>
-</md-toolbar>
+<toolbar title="Stories"></toolbar>
 
-<md-content class="flex layout-padding blog-content">
+<md-content class="flex layout-padding blog-content theme-background">
 
 
   <div class="layout-row layout-wrap layout-align-center-stretch">
@@ -28,18 +23,14 @@
       
       <md-card-title>
         <md-card-title-text>
-          <span class="md-headline">{{ ::story.title }}</span>
-          <span class="md-subhead">{{ ::story.virtuals.subtitle }}</span>
+          <span class="md-headline medium-story-title">{{ ::story.title }}</span>
+          <span class="md-subhead medium-story-subtitle">{{ ::story.virtuals.subtitle }}</span>
         </md-card-title-text>
       </md-card-title>
       
       <md-card-actions layout="row" layout-align="end center">
         <md-button ng-href="https://medium.com/@DavidMe93/{{ ::story.uniqueSlug }}" target="_blank" class="md-accent">Read More</md-button>
       </md-card-actions>
-      
-      <md-card-content>
-
-      </md-card-content>
     </md-card>
   </div>
   

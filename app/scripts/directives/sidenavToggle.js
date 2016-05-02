@@ -4,7 +4,6 @@
 
   angular.module('appDirectives').component('sidenavToggle', {
     
-    restrict: 'E',
     templateUrl: 'views/directives/sidenav-toggle.html',
     controller: ['$scope', '$rootScope', '$mdSidenav',
       function ($scope, $rootScope, $mdSidenav) {
