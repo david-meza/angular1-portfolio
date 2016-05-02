@@ -2,14 +2,13 @@
 
   'use strict';
 
-  angular.module('appServices').factory('deviceService', ['$window', 
-    function($window){
+  angular.module('appServices').factory('deviceService', ['$window', '$q', '$http',
+    function($window, $q, $http){
 
       var _width = $window.innerWidth;
-      var activeTab = { name: 'search' };
 
       function isMobile() {
-        return _width < 768;
+        return _width <= 959;
       }
 
       function scrollTo(target) {
@@ -17,14 +16,46 @@
         var ngTarget = angular.element(document.getElementById(target));
         contentArea.scrollToElementAnimated(ngTarget);
       }
-    
 
-    return {
-      isMobile: isMobile,
-      activeTab: activeTab,
-      scrollTo: scrollTo
-    };
+      function logError(response) {
+        console.log('Failed to send email', response);
+        return $q.reject(response);
+      }
 
-  }]);
+      function postEmail(data) {
+        return $http({
+          url: 'https://formspree.io/hello@david-meza.com',
+          method: 'POST',
+          data: data,
+          headers: {
+            'Accept': 'application/json'
+          }
+        });
+      }
+
+      function sendEmail(data, callback) {
+        postEmail(data).then(callback, logError);
+      }
+
+      function informUser(message, hide) {
+        var toast = $mdToast.simple()
+          .textContent(message)
+          .action('ok')
+          .highlightAction(false)
+          .hideDelay(hide || 3000)
+          .position('bottom right');
+        
+        $mdToast.show(toast);
+      };
+
+      return {
+        isMobile: isMobile,
+        scrollTo: scrollTo,
+        sendEmail: sendEmail,
+        informUser: informUser
+      };
+
+    }
+  ]);
   
 })(window.angular);

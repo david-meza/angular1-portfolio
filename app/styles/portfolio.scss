@@ -15,8 +15,14 @@ $black: #000;
 $gray: rgba(0,0,0, 0.68);
 $accent: #FF4081;
 $dark-text: rgba(38, 47, 98, 0.78);
-$out-cubic: cubic-bezier(0.22, 0.61, 0.36, 1);
-$in-out-cubic: cubic-bezier(0.65, 0.05, 0.36, 1);
+
+$quadratic-in-out: cubic-bezier(0.46, 0.03, 0.52, 0.96);
+$cubic-in-out: cubic-bezier(0.65, 0.05, 0.36, 1);
+$cubic-out: cubic-bezier(0.22, 0.61, 0.36, 1);
+$fast-out-slow-in: cubic-bezier(0.4, 0, 0.2, 1);
+$bounce-in: cubic-bezier(0.36, 0.12, 0.27, 1.55);
+
+$once: 0s 1 normal forwards;
 
 html {
   font-family: Roboto, Helvetica, Verdana, sans-serif;
@@ -242,9 +248,45 @@ p {
   }
 }
 
+div[ui-view="form-content"] {
+  // Starting the entering transition...
+  &.ng-enter {
+    opacity: 0.5;
+    @include transform( translateX(500px) );
+    @include transition( all 600ms $fast-out-slow-in );
+  }
+  // Finish the enter transition
+  &.ng-enter-active {
+    opacity: 1;
+    @include transform( translateX(0) );
+  }
+  // Start the leave transition...
+  &.ng-leave {
+    opacity: 0;
+    @include transform( translateX(0) );
+    @include transition( all 600ms $fast-out-slow-in );
+  }
+  // Finish leaving
+  &.ng-leave-active {
+    opacity: 0;
+    @include transform( translateX(-500px) );
+  }
+}
+
 .contact-form {
   .send-button {
     padding: 4px 40px;
+  }
+
+  .dark-icon {
+    [data-id="contact-icon"] > * {
+      fill: #9e9e9e;
+    }
+  }
+
+  .icon-success {
+    @include transform( scale(0,0)); 
+    @include animation( scale-in 700ms $bounce-in $once );
   }
 }
 
@@ -468,9 +510,20 @@ html, body {
   from { @include transform(translateX(-100px)); opacity: 0; }
   to { @include transform(translateX(0)); opacity: 1; }
 }
+@include keyframes(slide-in-rtl) {
+  from { @include transform(translateX(100px)); opacity: 0; }
+  to { @include transform(translateX(0)); opacity: 1; }
+}
 @include keyframes(slide-in-btt) {
   from { @include transform(translateY(100px)); opacity: 0; }
   to { @include transform(translateX(0)); opacity: 1; }
+}
+@include keyframes(slide-in-ttb) {
+  from { @include transform(translateY(-100px)); opacity: 0; }
+  to { @include transform(translateX(0)); opacity: 1; }
+}
+@include keyframes(scale-in) {
+  to { @include transform(scale(1,1)); }
 }
 
 #menu-sidenav {
@@ -490,9 +543,9 @@ html, body {
       font-size: 29px;
       top: 95px;
       left: 113px;
-      @include transform(translateX(-100px)); 
       opacity: 0;
-      @include animation( slide-in-ltr 1s $out-cubic 8.5s 1 normal forwards );
+      @include transform(translateX(-100px)); 
+      @include animation( slide-in-ltr 1s $cubic-out 8.5s 1 normal forwards );
 
     }
   }
@@ -530,7 +583,7 @@ html, body {
 
     .route-icon {
       margin: 2px 16px 2px 0px;
-      @include transition( all 400ms $in-out-cubic );
+      @include transition( all 400ms $cubic-in-out );
     }
 
     .md-button {
@@ -837,14 +890,14 @@ $curve2: cubic-bezier(0.645, 0.045, 0.355, 1);
   height: 94px;
   width: 168px;
   background: $space;
-  opacity: 0;
+  opacity: 1;
   position: absolute;
   z-index: 3;
   top: 45px;
   left: 76px;
   pointer-events: none;
   @include box-shadow( inset 0 0 5px $gray);
-  @include animation( screen-flicker $timing $curve2 1);
+  @include animation( screen-flicker $timing $curve2 $once);
 }
 
 .space {

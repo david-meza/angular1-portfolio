@@ -66,8 +66,23 @@
         })
         .state('contact', {
           url: '/contact',
-          templateUrl: 'views/states/contact.html',
-          controller: 'contactCtrl'
+          views: {
+            '': {
+              templateUrl: 'views/states/contact.html'
+            },
+            'form-content@contact': {
+              templateUrl: 'views/partials/contact-form.html',
+              controller: 'contactCtrl'
+            }
+          }
+        })
+        .state('contact.success', {
+          url: '/success',
+          views: {
+            'form-content@contact': {
+              templateUrl: 'views/partials/contact-form-submitted.html',
+            }
+          }
         });
 
     }]);
