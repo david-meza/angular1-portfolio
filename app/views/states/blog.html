@@ -1,0 +1,46 @@
+<md-toolbar md-scroll-shrink class="md-tall">
+  <span class="flex"></span>
+  <div class="md-toolbar-tools layout-row layout-align-end-center">
+    <h3 class="toolbar-title">Stories</h3>
+  </div>
+</md-toolbar>
+
+<md-content class="flex layout-padding blog-content">
+
+
+  <div class="layout-row layout-wrap layout-align-center-stretch">
+    <h3 class="page-subheader">Latest Posts</h3>
+
+    <span class="line-break"></span>
+    
+    <md-card ng-repeat="story in posts" class="medium-story-card">
+      <md-card-header>
+        <md-card-avatar>
+          <img src="https://s3.amazonaws.com/davidmeza/danebook/germany_winter.jpg">
+        </md-card-avatar>
+        <md-card-header-text>
+          <a href="https://medium.com/@DavidMe93" target="_blank"> <span class="md-title">David Meza</span> </a>
+          <span class="md-subhead">{{ ::story.firstPublishedAt | date: 'mediumDate'}} • {{ ::story.virtuals.readingTime | number: 0}} min read</span>
+        </md-card-header-text>
+      </md-card-header>
+      
+      <img ng-src="https://cdn-images-1.medium.com/fit/t/800/240/{{::story.virtuals.previewImage.imageId}}" fallback-src loading-src class="md-card-image medium-cover-image img-responsive" alt="story image">
+      
+      <md-card-title>
+        <md-card-title-text>
+          <span class="md-headline">{{ ::story.title }}</span>
+          <span class="md-subhead">{{ ::story.virtuals.subtitle }}</span>
+        </md-card-title-text>
+      </md-card-title>
+      
+      <md-card-actions layout="row" layout-align="end center">
+        <md-button ng-href="https://medium.com/@DavidMe93/{{ ::story.uniqueSlug }}" target="_blank" class="md-accent">Read More</md-button>
+      </md-card-actions>
+      
+      <md-card-content>
+
+      </md-card-content>
+    </md-card>
+  </div>
+  
+</md-content>

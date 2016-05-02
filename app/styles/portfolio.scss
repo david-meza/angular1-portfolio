@@ -204,16 +204,20 @@ p {
   word-wrap: break-word;
 }
 
+.img-responsive {
+  height: auto;
+  max-width: 100%;
+}
 
-.img-container {
-  height: 150px;
-  width: 200px;
-
-  .img-responsive {
-    height: 100%;
-    width: auto;
+.blog-content {
+  background-color: rgba(0,0,0,0.05);
+  .line-break {
+    width: 100%;
   }
-  
+  .page-subheader, .medium-story-card {
+    max-width: 100%;
+    width: 800px;
+  }
 }
 
 #class-sections, #park-amenities {
@@ -804,7 +808,7 @@ $curve2: cubic-bezier(0.645, 0.045, 0.355, 1);
   left: 76px;
   pointer-events: none;
   @include box-shadow( inset 0 0 5px $gray);
-  @include animation( screen-flicker $timing $curve2 infinite);
+  @include animation( screen-flicker $timing $curve2 1);
 }
 
 .space {
@@ -834,7 +838,7 @@ $curve2: cubic-bezier(0.645, 0.045, 0.355, 1);
       border-radius: 100%;
       border-left: 15px solid $alien;
       transform: rotate(-30deg);
-      @include animation( tentacle $timing $curve2 infinite);
+      @include animation( tentacle $timing $curve2 1);
     }
     
     .flag {
@@ -843,7 +847,7 @@ $curve2: cubic-bezier(0.645, 0.045, 0.355, 1);
       width: 15px;
       top: -57px;
       left: -1px;
-      @include animation( flag-pole $timing $curve2 infinite);
+      @include animation( flag-pole $timing $curve2 1);
       
       &:before {
         content: "";
@@ -860,7 +864,7 @@ $curve2: cubic-bezier(0.645, 0.045, 0.355, 1);
         left: 2px;
         top: 0;
         background: $accent;
-        @include animation( flag-unfurl $timing $curve2 infinite);
+        @include animation( flag-unfurl $timing $curve2 1);
       }
       .small-tentacle {
         position: absolute;
@@ -871,7 +875,7 @@ $curve2: cubic-bezier(0.645, 0.045, 0.355, 1);
         border-left: 10px solid $alien;
         border-radius: 100%;
         transform: rotate(25deg);
-        @include animation( small-tentacle $timing $curve2 infinite);
+        @include animation( small-tentacle $timing $curve2 1);
         z-index: 2;
       }
     }    
@@ -938,13 +942,13 @@ $curve2: cubic-bezier(0.645, 0.045, 0.355, 1);
     background: rgba(0,0,0,.1);
     transform-origin: 0% 100% 0;
     z-index: 1;
-    @include animation( ship $timing $curve2 infinite);
+    @include animation( ship $timing $curve2 1);
     
     .ship-rotate {
       position: absolute;
       height: 22px;
       transform: rotate(-110deg);
-      @include animation( ship-rotate $timing $curve2 infinite);
+      @include animation( ship-rotate $timing $curve2 1);
     }    
     .pod {
       position: absolute;
@@ -985,7 +989,7 @@ $curve2: cubic-bezier(0.645, 0.045, 0.355, 1);
   13%  { opacity: 1; }
   18%  { opacity: 0; }
   92%  { opacity: 0; }
-  100% { opacity: 1; }
+  100% { opacity: 0; } // 1 if infinite loop animation
 }
 
 @include keyframes(small-tentacle) {

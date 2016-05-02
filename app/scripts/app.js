@@ -30,8 +30,12 @@
         .iconSet('social', 'img/icons/social.svg', 48);       
     }])
 
-    .config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $urlRouterProvider) {
+    .config(['$stateProvider', '$urlRouterProvider', '$locationProvider', function ($stateProvider, $urlRouterProvider, $locationProvider) {
 
+      $locationProvider
+        // .html5Mode(true)
+        .hashPrefix('!');
+        
       $urlRouterProvider.otherwise('/');
 
       $stateProvider
@@ -48,7 +52,7 @@
         .state('blog', {
           url: '/blog',
           templateUrl: 'views/states/blog.html',
-          controller: 'devicesCtrl'
+          controller: 'blogCtrl'
         })
         .state('projects', {
           url: '/projects',

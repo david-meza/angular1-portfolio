@@ -1,0 +1,2087 @@
+{
+  "success": true,
+  "payload": {
+    "value": {
+      "userId": "bb25a5c8f53b",
+      "name": "David Meza",
+      "username": "DavidMe93",
+      "createdAt": 1436761178782,
+      "lastPostCreatedAt": 1461347845667,
+      "imageId": "0*dosdxo9R9evMDmU5.jpeg",
+      "backgroundImageId": "",
+      "bio": "Human being, son of two parents, eats food, breathes for a living, can speak, has 10/10 fingers and toes, wait... maybe.",
+      "twitterScreenName": "DavidMe93",
+      "facebookAccountId": "161646784230481",
+      "allowNotes": 1,
+      "type": "User"
+    },
+    "posts": [
+      {
+        "id": "c3a36f109054",
+        "versionId": "bb7e32dc34fe",
+        "creatorId": "bb25a5c8f53b",
+        "homeCollectionId": "",
+        "title": "I feel like hacker is not such an unrelated term like rockstar or ninja are.",
+        "detectedLanguage": "en",
+        "latestVersion": "bb7e32dc34fe",
+        "latestPublishedVersion": "bb7e32dc34fe",
+        "hasUnpublishedEdits": false,
+        "latestRev": 6,
+        "createdAt": 1461347845667,
+        "updatedAt": 1461347848600,
+        "acceptedAt": 0,
+        "firstPublishedAt": 1461347848600,
+        "latestPublishedAt": 1461347848600,
+        "vote": false,
+        "experimentalCss": "",
+        "displayAuthor": "",
+        "virtuals": {
+          "createdAtRelative": "9 days ago",
+          "updatedAtRelative": "9 days ago",
+          "acceptedAtRelative": "",
+          "createdAtEnglish": "April 22, 2016",
+          "updatedAtEnglish": "April 22, 2016",
+          "acceptedAtEnglish": "",
+          "firstPublishedAtEnglish": "April 22, 2016",
+          "latestPublishedAtEnglish": "April 22, 2016",
+          "allowNotes": true,
+          "snippet": "To me, a hacker is an enthusiastic and skillful developer.",
+          "previewImage": {
+            "imageId": "",
+            "filter": "",
+            "backgroundSize": "",
+            "originalWidth": 0,
+            "originalHeight": 0,
+            "strategy": "resample",
+            "height": 0,
+            "width": 0
+          },
+          "wordCount": 51,
+          "imageCount": 0,
+          "readingTime": 0.19245283018867926,
+          "subtitle": "",
+          "usersBySocialRecommends": [],
+          "latestPublishedAtAbbreviated": "Apr 22",
+          "firstPublishedAtAbbreviated": "Apr 22",
+          "emailSnippet": "To me, a hacker is an enthusiastic and skillful developer. For example, I would consider myself a ‘civic hacker’ because I enjoy (and got quite good at) building applications that help the community and local government.",
+          "recommends": 0,
+          "isBookmarked": false,
+          "tags": [],
+          "socialRecommendsCount": 0,
+          "responsesCreatedCount": 0,
+          "links": {
+            "entries": [],
+            "version": "0.1"
+          },
+          "isLockedPreviewOnly": false
+        },
+        "coverless": true,
+        "slug": "i-feel-like-hacker-is-not-such-an-unrelated-term-like-rockstar-or-ninja-are",
+        "translationSourcePostId": "",
+        "translationSourceCreatorId": "",
+        "isApprovedTranslation": false,
+        "inResponseToPostId": "d4ac3dd2defe",
+        "inResponseToRemovedAt": 0,
+        "isTitleSynthesized": true,
+        "allowResponses": true,
+        "importedUrl": "",
+        "importedPublishedAt": 0,
+        "visibility": 0,
+        "uniqueSlug": "i-feel-like-hacker-is-not-such-an-unrelated-term-like-rockstar-or-ninja-are-c3a36f109054",
+        "previewContent": {
+          "bodyModel": {
+            "paragraphs": [
+              {
+                "name": "d39b",
+                "type": 1,
+                "text": "I feel like hacker is not such an unrelated term like rockstar or ninja are. To me, a hacker is an enthusiastic and skillful developer. For example, I would consider myself a ‘civic hacker’ because I enjoy (and got quite good at) building applications that help the community and local government.",
+                "markups": [],
+                "alignment": 1
+              }
+            ],
+            "sections": [
+              {
+                "startIndex": 0
+              }
+            ]
+          },
+          "isFullContent": true
+        },
+        "license": 0,
+        "inResponseToMediaResourceId": "0e2a7f090131f255a3ffc179ee372870",
+        "canonicalUrl": "",
+        "approvedHomeCollectionId": "",
+        "newsletterId": "",
+        "webCanonicalUrl": "",
+        "mediumUrl": "",
+        "migrationId": "",
+        "type": "Post"
+      },
+      {
+        "id": "2f97a8a03c5a",
+        "versionId": "1afd2dce35ae",
+        "creatorId": "bb25a5c8f53b",
+        "homeCollectionId": "",
+        "title": "How to Write an Angular 2 Component",
+        "detectedLanguage": "en",
+        "latestVersion": "1afd2dce35ae",
+        "latestPublishedVersion": "1afd2dce35ae",
+        "hasUnpublishedEdits": false,
+        "latestRev": 889,
+        "createdAt": 1459132169566,
+        "updatedAt": 1462152375820,
+        "acceptedAt": 0,
+        "firstPublishedAt": 1459211018754,
+        "latestPublishedAt": 1462152375820,
+        "vote": false,
+        "experimentalCss": "",
+        "displayAuthor": "",
+        "virtuals": {
+          "createdAtRelative": "a month ago",
+          "updatedAtRelative": "25 minutes ago",
+          "acceptedAtRelative": "",
+          "createdAtEnglish": "March 27, 2016",
+          "updatedAtEnglish": "May 1, 2016",
+          "acceptedAtEnglish": "",
+          "firstPublishedAtEnglish": "March 28, 2016",
+          "latestPublishedAtEnglish": "May 1, 2016",
+          "allowNotes": true,
+          "snippet": "An explanation of Angular Docs for everyone",
+          "previewImage": {
+            "imageId": "1*HhBuvpmX7tIQLQBVpF-S3A.jpeg",
+            "filter": "",
+            "backgroundSize": "",
+            "originalWidth": 3000,
+            "originalHeight": 1688,
+            "strategy": "resample",
+            "height": 0,
+            "width": 0
+          },
+          "wordCount": 1589,
+          "imageCount": 1,
+          "readingTime": 6.19622641509434,
+          "subtitle": "An explanation of Angular Docs for everyone",
+          "usersBySocialRecommends": [],
+          "latestPublishedAtAbbreviated": "May 1",
+          "firstPublishedAtAbbreviated": "Mar 28",
+          "emailSnippet": "The Angular team introduced quite a few changes in version 2 of the framework, and components are one of the important ones. If you are familiar with Angular 1 applications, components are actually a form of directives that have been extended with template-oriented features. In addition, components are optimized for better performance and simpler configuration than a directive since it doesn’t support all its features.",
+          "recommends": 0,
+          "isBookmarked": false,
+          "tags": [
+            {
+              "slug": "javascript",
+              "name": "JavaScript",
+              "postCount": 12225,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 10437,
+                "postCount": 12225,
+                "coverImage": {
+                  "id": "1*bSMhqCAGeHAqbPS6qQMe5Q.jpeg",
+                  "originalWidth": 1920,
+                  "originalHeight": 1280
+                }
+              },
+              "type": "Tag"
+            },
+            {
+              "slug": "angular2",
+              "name": "Angular2",
+              "postCount": 138,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 363,
+                "postCount": 138,
+                "coverImage": {
+                  "id": "1*y3nCa669v3zccdw85ptzoQ.png",
+                  "originalWidth": 2000,
+                  "originalHeight": 532,
+                  "isFeatured": true
+                }
+              },
+              "type": "Tag"
+            },
+            {
+              "slug": "web-development",
+              "name": "Web Development",
+              "postCount": 13704,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 10925,
+                "postCount": 13704,
+                "coverImage": {
+                  "id": "1*i0igcKxDNrKYDp6gd_s_3g.jpeg",
+                  "originalWidth": 1000,
+                  "originalHeight": 787
+                }
+              },
+              "type": "Tag"
+            }
+          ],
+          "socialRecommendsCount": 0,
+          "responsesCreatedCount": 0,
+          "links": {
+            "entries": [],
+            "version": "0.1"
+          },
+          "isLockedPreviewOnly": false
+        },
+        "coverless": true,
+        "slug": "how-to-write-an-angular-2-component",
+        "translationSourcePostId": "",
+        "translationSourceCreatorId": "",
+        "isApprovedTranslation": false,
+        "inResponseToPostId": "",
+        "inResponseToRemovedAt": 0,
+        "isTitleSynthesized": false,
+        "allowResponses": true,
+        "importedUrl": "",
+        "importedPublishedAt": 0,
+        "visibility": 0,
+        "uniqueSlug": "how-to-write-an-angular-2-component-2f97a8a03c5a",
+        "previewContent": {
+          "bodyModel": {
+            "paragraphs": [
+              {
+                "name": "previewImage",
+                "type": 4,
+                "text": "",
+                "layout": 10,
+                "metadata": {
+                  "id": "1*HhBuvpmX7tIQLQBVpF-S3A.jpeg",
+                  "originalWidth": 3000,
+                  "originalHeight": 1688
+                }
+              },
+              {
+                "name": "previewTitle",
+                "type": 2,
+                "text": "How to Write an Angular 2 Component",
+                "alignment": 1
+              },
+              {
+                "name": "previewSubtitle",
+                "type": 13,
+                "text": "An explanation of Angular Docs for everyone",
+                "alignment": 1
+              }
+            ],
+            "sections": [
+              {
+                "startIndex": 0
+              }
+            ]
+          },
+          "isFullContent": false
+        },
+        "license": 0,
+        "inResponseToMediaResourceId": "",
+        "canonicalUrl": "",
+        "approvedHomeCollectionId": "",
+        "newsletterId": "",
+        "webCanonicalUrl": "",
+        "mediumUrl": "",
+        "migrationId": "",
+        "type": "Post"
+      },
+      {
+        "id": "fd8036c4b3af",
+        "versionId": "eb9c42c75091",
+        "creatorId": "bb25a5c8f53b",
+        "homeCollectionId": "",
+        "title": "Three easy ways to deploy an Angular app for free",
+        "detectedLanguage": "en",
+        "latestVersion": "eb9c42c75091",
+        "latestPublishedVersion": "eb9c42c75091",
+        "hasUnpublishedEdits": false,
+        "latestRev": 933,
+        "createdAt": 1451841202998,
+        "updatedAt": 1451952694139,
+        "acceptedAt": 0,
+        "firstPublishedAt": 1451883495921,
+        "latestPublishedAt": 1451952694139,
+        "vote": false,
+        "experimentalCss": "",
+        "displayAuthor": "",
+        "virtuals": {
+          "createdAtRelative": "4 months ago",
+          "updatedAtRelative": "4 months ago",
+          "acceptedAtRelative": "",
+          "createdAtEnglish": "January 3, 2016",
+          "updatedAtEnglish": "January 4, 2016",
+          "acceptedAtEnglish": "",
+          "firstPublishedAtEnglish": "January 3, 2016",
+          "latestPublishedAtEnglish": "January 4, 2016",
+          "allowNotes": true,
+          "snippet": "Using Github pages, Amazon S3 bucket, and Heroku",
+          "previewImage": {
+            "imageId": "1*_wrMzWtdZNaZNwzZP-_czw.jpeg",
+            "filter": "",
+            "backgroundSize": "",
+            "originalWidth": 2558,
+            "originalHeight": 864,
+            "strategy": "resample",
+            "height": 0,
+            "width": 0
+          },
+          "wordCount": 1073,
+          "imageCount": 4,
+          "readingTime": 4.749056603773585,
+          "subtitle": "Using Github pages, Amazon S3 bucket, and Heroku",
+          "usersBySocialRecommends": [],
+          "latestPublishedAtAbbreviated": "Jan 4",
+          "firstPublishedAtAbbreviated": "Jan 3",
+          "emailSnippet": "Making an AngularJS application can be a lot of fun and a great way to experiment with front-end frameworks. One downside is that you can’t see your project deployed on the web unless you are using a framework on the back-end / server-side such as Meteor, NodeJS, Rails, etc. or you are already paying for a server instance. Luckily for us, there are many ways to get around this and I’ll show you three super-easy ways to get your set of “static” (technically you are only hosting one index page…",
+          "recommends": 0,
+          "isBookmarked": false,
+          "tags": [
+            {
+              "slug": "javascript",
+              "name": "JavaScript",
+              "postCount": 12225,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 10437,
+                "postCount": 12225,
+                "coverImage": {
+                  "id": "1*bSMhqCAGeHAqbPS6qQMe5Q.jpeg",
+                  "originalWidth": 1920,
+                  "originalHeight": 1280
+                }
+              },
+              "type": "Tag"
+            },
+            {
+              "slug": "angularjs",
+              "name": "Angularjs",
+              "postCount": 1356,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 2246,
+                "postCount": 1356,
+                "coverImage": {
+                  "id": "1*mgaMgcuv69sYE9x6my25Yw.png",
+                  "originalWidth": 1278,
+                  "originalHeight": 568
+                }
+              },
+              "type": "Tag"
+            },
+            {
+              "slug": "web-development",
+              "name": "Web Development",
+              "postCount": 13704,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 10925,
+                "postCount": 13704,
+                "coverImage": {
+                  "id": "1*i0igcKxDNrKYDp6gd_s_3g.jpeg",
+                  "originalWidth": 1000,
+                  "originalHeight": 787
+                }
+              },
+              "type": "Tag"
+            }
+          ],
+          "socialRecommendsCount": 0,
+          "responsesCreatedCount": 0,
+          "links": {
+            "entries": [],
+            "version": "0.1"
+          },
+          "isLockedPreviewOnly": false
+        },
+        "coverless": true,
+        "slug": "three-easy-ways-to-deploy-an-angular-app-for-free",
+        "translationSourcePostId": "",
+        "translationSourceCreatorId": "",
+        "isApprovedTranslation": false,
+        "inResponseToPostId": "",
+        "inResponseToRemovedAt": 0,
+        "isTitleSynthesized": true,
+        "allowResponses": true,
+        "importedUrl": "",
+        "importedPublishedAt": 0,
+        "visibility": 0,
+        "uniqueSlug": "three-easy-ways-to-deploy-an-angular-app-for-free-fd8036c4b3af",
+        "previewContent": {
+          "bodyModel": {
+            "paragraphs": [
+              {
+                "name": "66f3",
+                "type": 4,
+                "text": "",
+                "markups": [],
+                "layout": 10,
+                "metadata": {
+                  "id": "1*_wrMzWtdZNaZNwzZP-_czw.jpeg",
+                  "originalWidth": 2558,
+                  "originalHeight": 864
+                }
+              },
+              {
+                "name": "18b1",
+                "type": 3,
+                "text": "Three easy ways to deploy an Angular app for free",
+                "markups": [],
+                "alignment": 1
+              },
+              {
+                "name": "7977",
+                "type": 13,
+                "text": "Using Github pages, Amazon S3 bucket, and Heroku",
+                "markups": [],
+                "alignment": 1
+              }
+            ],
+            "sections": [
+              {
+                "startIndex": 0
+              }
+            ]
+          },
+          "isFullContent": false
+        },
+        "license": 0,
+        "inResponseToMediaResourceId": "",
+        "canonicalUrl": "",
+        "approvedHomeCollectionId": "",
+        "newsletterId": "",
+        "webCanonicalUrl": "",
+        "mediumUrl": "",
+        "migrationId": "",
+        "type": "Post"
+      },
+      {
+        "id": "e0b13e24362a",
+        "versionId": "9659971ed56b",
+        "creatorId": "bb25a5c8f53b",
+        "homeCollectionId": "",
+        "title": "Too many people try to change the world. Few people try to change their local community.",
+        "detectedLanguage": "en",
+        "latestVersion": "9659971ed56b",
+        "latestPublishedVersion": "9659971ed56b",
+        "hasUnpublishedEdits": false,
+        "latestRev": 12,
+        "createdAt": 1451174253329,
+        "updatedAt": 1451174289292,
+        "acceptedAt": 0,
+        "firstPublishedAt": 1451174289292,
+        "latestPublishedAt": 1451174289292,
+        "vote": false,
+        "experimentalCss": "",
+        "displayAuthor": "",
+        "virtuals": {
+          "createdAtRelative": "4 months ago",
+          "updatedAtRelative": "4 months ago",
+          "acceptedAtRelative": "",
+          "createdAtEnglish": "December 26, 2015",
+          "updatedAtEnglish": "December 26, 2015",
+          "acceptedAtEnglish": "",
+          "firstPublishedAtEnglish": "December 26, 2015",
+          "latestPublishedAtEnglish": "December 26, 2015",
+          "allowNotes": true,
+          "snippet": "",
+          "previewImage": {
+            "imageId": "",
+            "filter": "",
+            "backgroundSize": "",
+            "originalWidth": 0,
+            "originalHeight": 0,
+            "strategy": "resample",
+            "height": 0,
+            "width": 0
+          },
+          "wordCount": 16,
+          "imageCount": 0,
+          "readingTime": 0.06037735849056604,
+          "subtitle": "",
+          "usersBySocialRecommends": [],
+          "latestPublishedAtAbbreviated": "Dec 26, 2015",
+          "firstPublishedAtAbbreviated": "Dec 26, 2015",
+          "emailSnippet": "",
+          "recommends": 0,
+          "isBookmarked": false,
+          "tags": [],
+          "socialRecommendsCount": 0,
+          "responsesCreatedCount": 0,
+          "links": {
+            "entries": [],
+            "version": "0.1"
+          },
+          "isLockedPreviewOnly": false
+        },
+        "coverless": true,
+        "slug": "too-many-people-try-to-change-the-world-few-people-try-to-change-their-local-community",
+        "translationSourcePostId": "",
+        "translationSourceCreatorId": "",
+        "isApprovedTranslation": false,
+        "inResponseToPostId": "1f126068f6d8",
+        "inResponseToRemovedAt": 0,
+        "isTitleSynthesized": true,
+        "allowResponses": true,
+        "importedUrl": "",
+        "importedPublishedAt": 0,
+        "visibility": 0,
+        "uniqueSlug": "too-many-people-try-to-change-the-world-few-people-try-to-change-their-local-community-e0b13e24362a",
+        "previewContent": {
+          "bodyModel": {
+            "paragraphs": [
+              {
+                "name": "18a2",
+                "type": 1,
+                "text": "Too many people try to change the world. Few people try to change their local community.",
+                "markups": [],
+                "alignment": 1
+              }
+            ],
+            "sections": [
+              {
+                "startIndex": 0
+              }
+            ]
+          },
+          "isFullContent": true
+        },
+        "license": 0,
+        "inResponseToMediaResourceId": "5728dbfdb059ee63e4778619d9d97d78",
+        "canonicalUrl": "",
+        "approvedHomeCollectionId": "",
+        "newsletterId": "",
+        "webCanonicalUrl": "",
+        "mediumUrl": "",
+        "migrationId": "",
+        "type": "Post"
+      },
+      {
+        "id": "7aacc2fdcc2e",
+        "versionId": "dad0dfd61d79",
+        "creatorId": "bb25a5c8f53b",
+        "homeCollectionId": "",
+        "title": "How to make your first video game",
+        "detectedLanguage": "en",
+        "latestVersion": "dad0dfd61d79",
+        "latestPublishedVersion": "dad0dfd61d79",
+        "hasUnpublishedEdits": false,
+        "latestRev": 632,
+        "createdAt": 1443242116087,
+        "updatedAt": 1447119654155,
+        "acceptedAt": 0,
+        "firstPublishedAt": 1443250447089,
+        "latestPublishedAt": 1443285835109,
+        "vote": false,
+        "experimentalCss": "",
+        "displayAuthor": "",
+        "virtuals": {
+          "createdAtRelative": "7 months ago",
+          "updatedAtRelative": "6 months ago",
+          "acceptedAtRelative": "",
+          "createdAtEnglish": "September 25, 2015",
+          "updatedAtEnglish": "November 9, 2015",
+          "acceptedAtEnglish": "",
+          "firstPublishedAtEnglish": "September 25, 2015",
+          "latestPublishedAtEnglish": "September 26, 2015",
+          "allowNotes": true,
+          "snippet": "A brief overview of Unity 3D",
+          "previewImage": {
+            "imageId": "1*I4T2sIxeB18K0V2GM5_Psg.jpeg",
+            "filter": "",
+            "backgroundSize": "",
+            "originalWidth": 4288,
+            "originalHeight": 2848,
+            "strategy": "resample",
+            "height": 0,
+            "width": 0
+          },
+          "wordCount": 949,
+          "imageCount": 2,
+          "readingTime": 3.9644654088050313,
+          "subtitle": "A brief overview of Unity 3D",
+          "usersBySocialRecommends": [],
+          "latestPublishedAtAbbreviated": "Sep 26, 2015",
+          "firstPublishedAtAbbreviated": "Sep 25, 2015",
+          "emailSnippet": "Last night, me and 9 (web) developers were challenged to take on a new technology, learn it in a 24 hour period, and present it to the group. It could be anything that had a practical value to our career. Some of the topics chosen included Node.js, Socket.io, Redis, Meteor.js, and D3.js data visualization. Me, being the video-game hobbyist that I am, opted for picking up Unity 3D and deploying a game as a web application.",
+          "recommends": 15,
+          "isBookmarked": false,
+          "tags": [
+            {
+              "slug": "game-development",
+              "name": "Game Development",
+              "postCount": 1155,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 1144,
+                "postCount": 1155,
+                "coverImage": {
+                  "id": "1*rMjNETqKU9MfNGblSE7gHQ.jpeg",
+                  "originalWidth": 1920,
+                  "originalHeight": 1080
+                }
+              },
+              "type": "Tag"
+            },
+            {
+              "slug": "software-development",
+              "name": "Software Development",
+              "postCount": 6031,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 4662,
+                "postCount": 6031,
+                "coverImage": {
+                  "id": "1*IJlgGsOIpq0lKTdf6lZATA.png",
+                  "originalWidth": 1024,
+                  "originalHeight": 1024,
+                  "focusPercentX": 77,
+                  "focusPercentY": 26
+                }
+              },
+              "type": "Tag"
+            },
+            {
+              "slug": "gaming",
+              "name": "Gaming",
+              "postCount": 6357,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 41294,
+                "postCount": 6357,
+                "coverImage": {
+                  "id": "1*RrVd-ZgPoGefY5UL5elsCQ.png",
+                  "originalWidth": 3840,
+                  "originalHeight": 2033
+                }
+              },
+              "type": "Tag"
+            }
+          ],
+          "socialRecommendsCount": 0,
+          "responsesCreatedCount": 1,
+          "links": {
+            "entries": [],
+            "version": "0.1"
+          },
+          "isLockedPreviewOnly": false
+        },
+        "coverless": true,
+        "slug": "how-to-make-your-first-video-game",
+        "translationSourcePostId": "",
+        "translationSourceCreatorId": "",
+        "isApprovedTranslation": false,
+        "inResponseToPostId": "",
+        "inResponseToRemovedAt": 0,
+        "isTitleSynthesized": false,
+        "allowResponses": true,
+        "importedUrl": "",
+        "importedPublishedAt": 0,
+        "visibility": 0,
+        "uniqueSlug": "how-to-make-your-first-video-game-7aacc2fdcc2e",
+        "previewContent": {
+          "bodyModel": {
+            "paragraphs": [
+              {
+                "name": "previewImage",
+                "type": 4,
+                "text": "",
+                "layout": 10,
+                "metadata": {
+                  "id": "1*I4T2sIxeB18K0V2GM5_Psg.jpeg",
+                  "originalWidth": 4288,
+                  "originalHeight": 2848
+                }
+              },
+              {
+                "name": "previewTitle",
+                "type": 2,
+                "text": "How to make your first video game",
+                "alignment": 1
+              },
+              {
+                "name": "previewSubtitle",
+                "type": 13,
+                "text": "A brief overview of Unity 3D",
+                "alignment": 1
+              }
+            ],
+            "sections": [
+              {
+                "startIndex": 0
+              }
+            ]
+          },
+          "isFullContent": false
+        },
+        "license": 0,
+        "inResponseToMediaResourceId": "",
+        "canonicalUrl": "",
+        "approvedHomeCollectionId": "",
+        "newsletterId": "",
+        "webCanonicalUrl": "",
+        "mediumUrl": "",
+        "migrationId": "",
+        "type": "Post"
+      },
+      {
+        "id": "7fb9606f6631",
+        "versionId": "2f1d7953970",
+        "creatorId": "bb25a5c8f53b",
+        "homeCollectionId": "ce67810c8a52",
+        "title": "My first 120 hours of Javascript",
+        "detectedLanguage": "en",
+        "latestVersion": "2f1d7953970",
+        "latestPublishedVersion": "2f1d7953970",
+        "hasUnpublishedEdits": false,
+        "latestRev": 891,
+        "createdAt": 1440861842660,
+        "updatedAt": 1443814818354,
+        "acceptedAt": 0,
+        "firstPublishedAt": 1440869546305,
+        "latestPublishedAt": 1443748030576,
+        "vote": false,
+        "experimentalCss": "",
+        "displayAuthor": "",
+        "virtuals": {
+          "statusForCollection": "APPROVED",
+          "createdAtRelative": "8 months ago",
+          "updatedAtRelative": "7 months ago",
+          "acceptedAtRelative": "",
+          "createdAtEnglish": "August 29, 2015",
+          "updatedAtEnglish": "October 2, 2015",
+          "acceptedAtEnglish": "",
+          "firstPublishedAtEnglish": "August 29, 2015",
+          "latestPublishedAtEnglish": "October 1, 2015",
+          "allowNotes": true,
+          "snippet": "The struggles and accomplishments of learning web development",
+          "previewImage": {
+            "imageId": "1*6z_QTQc5m385kAYhsjlt2w.jpeg",
+            "filter": "",
+            "backgroundSize": "",
+            "originalWidth": 5472,
+            "originalHeight": 3648,
+            "strategy": "resample",
+            "height": 0,
+            "width": 0
+          },
+          "wordCount": 1112,
+          "imageCount": 2,
+          "readingTime": 4.579559748427673,
+          "subtitle": "The struggles and accomplishments of learning web development",
+          "publishedInCount": 1,
+          "usersBySocialRecommends": [],
+          "latestPublishedAtAbbreviated": "Oct 1, 2015",
+          "firstPublishedAtAbbreviated": "Aug 29, 2015",
+          "emailSnippet": "Disclaimer: I started learning JS after already having a solid foundation on Ruby and OOP concepts, and I also took the quick course in CodeCademy the day before to get acquainted with the new syntax, so in this sense we could say I had a headstart. ¶\n\nDay 1 (24 hours of Javascript basics) ¶\n\nDay one started by writing some rapid-fire exercises to use the new syntax just learned. In the morning I wrote 7 functions that are very basic programming exercises, such as reversing a string, outputting…",
+          "recommends": 53,
+          "isBookmarked": false,
+          "tags": [
+            {
+              "slug": "web-development",
+              "name": "Web Development",
+              "postCount": 13704,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 10925,
+                "postCount": 13704,
+                "coverImage": {
+                  "id": "1*i0igcKxDNrKYDp6gd_s_3g.jpeg",
+                  "originalWidth": 1000,
+                  "originalHeight": 787
+                }
+              },
+              "type": "Tag"
+            },
+            {
+              "slug": "javascript",
+              "name": "JavaScript",
+              "postCount": 12225,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 10437,
+                "postCount": 12225,
+                "coverImage": {
+                  "id": "1*bSMhqCAGeHAqbPS6qQMe5Q.jpeg",
+                  "originalWidth": 1920,
+                  "originalHeight": 1280
+                }
+              },
+              "type": "Tag"
+            },
+            {
+              "slug": "gaming",
+              "name": "Gaming",
+              "postCount": 6357,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 41294,
+                "postCount": 6357,
+                "coverImage": {
+                  "id": "1*RrVd-ZgPoGefY5UL5elsCQ.png",
+                  "originalWidth": 3840,
+                  "originalHeight": 2033
+                }
+              },
+              "type": "Tag"
+            }
+          ],
+          "socialRecommendsCount": 0,
+          "responsesCreatedCount": 2,
+          "links": {
+            "entries": [],
+            "version": "0.1"
+          },
+          "isLockedPreviewOnly": false
+        },
+        "coverless": true,
+        "slug": "my-first-120-hours-of-javascript",
+        "translationSourcePostId": "",
+        "translationSourceCreatorId": "",
+        "isApprovedTranslation": false,
+        "inResponseToPostId": "",
+        "inResponseToRemovedAt": 0,
+        "isTitleSynthesized": false,
+        "allowResponses": true,
+        "importedUrl": "",
+        "importedPublishedAt": 0,
+        "visibility": 0,
+        "uniqueSlug": "my-first-120-hours-of-javascript-7fb9606f6631",
+        "previewContent": {
+          "bodyModel": {
+            "paragraphs": [
+              {
+                "name": "previewImage",
+                "type": 4,
+                "text": "",
+                "layout": 10,
+                "metadata": {
+                  "id": "1*6z_QTQc5m385kAYhsjlt2w.jpeg",
+                  "originalWidth": 5472,
+                  "originalHeight": 3648
+                }
+              },
+              {
+                "name": "previewTitle",
+                "type": 2,
+                "text": "My first 120 hours of Javascript",
+                "alignment": 1
+              },
+              {
+                "name": "previewSubtitle",
+                "type": 13,
+                "text": "The struggles and accomplishments of learning web development",
+                "alignment": 1
+              }
+            ],
+            "sections": [
+              {
+                "startIndex": 0
+              }
+            ]
+          },
+          "isFullContent": false
+        },
+        "license": 0,
+        "inResponseToMediaResourceId": "",
+        "canonicalUrl": "",
+        "approvedHomeCollectionId": "ce67810c8a52",
+        "newsletterId": "",
+        "webCanonicalUrl": "",
+        "mediumUrl": "",
+        "migrationId": "",
+        "type": "Post"
+      }
+    ],
+    "references": {
+      "Social": {
+        "bb25a5c8f53b": {
+          "userId": "lo_191d96bd20f8",
+          "targetUserId": "bb25a5c8f53b",
+          "type": "Social"
+        }
+      },
+      "SocialStats": {
+        "bb25a5c8f53b": {
+          "userId": "bb25a5c8f53b",
+          "usersFollowedCount": 22,
+          "usersFollowedByCount": 32,
+          "type": "SocialStats"
+        }
+      },
+      "User": {
+        "bb25a5c8f53b": {
+          "userId": "bb25a5c8f53b",
+          "name": "David Meza",
+          "username": "DavidMe93",
+          "createdAt": 1436761178782,
+          "lastPostCreatedAt": 1461347845667,
+          "imageId": "0*dosdxo9R9evMDmU5.jpeg",
+          "backgroundImageId": "",
+          "bio": "Human being, son of two parents, eats food, breathes for a living, can speak, has 10/10 fingers and toes, wait... maybe.",
+          "twitterScreenName": "DavidMe93",
+          "facebookAccountId": "161646784230481",
+          "allowNotes": 1,
+          "type": "User"
+        },
+        "3334a58db4c1": {
+          "userId": "3334a58db4c1",
+          "name": "Dan Kim",
+          "username": "lateplate",
+          "createdAt": 1438973290184,
+          "lastPostCreatedAt": 1461345658863,
+          "imageId": "1*54WwuU7CdhvSYPL5t9DDCw.jpeg",
+          "backgroundImageId": "",
+          "bio": "Android Programmer at Basecamp | https://twitter.com/dankim",
+          "twitterScreenName": "dankim",
+          "facebookAccountId": "",
+          "allowNotes": 1,
+          "type": "User"
+        },
+        "5ce28105ffbc": {
+          "userId": "5ce28105ffbc",
+          "name": "Jon Westenberg",
+          "username": "jonwestenberg",
+          "createdAt": 1395535033970,
+          "lastPostCreatedAt": 1462140182022,
+          "imageId": "1*t6Kg6_1BJqnIGOteYwT-4g.jpeg",
+          "backgroundImageId": "",
+          "bio": "Writer, founder, passionate entrepreneur + I'm on a mission to build businesses, change the world and create entrepreneurs - www.jonwestenberg.com",
+          "twitterScreenName": "Jonwestenberg",
+          "facebookAccountId": "",
+          "allowNotes": 1,
+          "type": "User"
+        }
+      },
+      "MediaResource": {
+        "0e2a7f090131f255a3ffc179ee372870": {
+          "mediaResourceId": "0e2a7f090131f255a3ffc179ee372870",
+          "mediaResourceType": "MediaResourceMediumPost",
+          "href": "https://medium.com/p/d4ac3dd2defe",
+          "domain": "medium.com",
+          "title": "I’m a boring programmer (and proud of it)",
+          "description": "",
+          "iframeWidth": 0,
+          "iframeHeight": 0,
+          "iframeSrc": "",
+          "thumbnailUrl": "",
+          "thumbnailWidth": 3637,
+          "thumbnailHeight": 1481,
+          "display": 1,
+          "thumbnailImageId": "1*bZmUgjuLoEfORUYrm3KC3Q.jpeg",
+          "authorName": "",
+          "mediumPost": {
+            "postId": "d4ac3dd2defe"
+          },
+          "type": "MediaResource"
+        },
+        "5728dbfdb059ee63e4778619d9d97d78": {
+          "mediaResourceId": "5728dbfdb059ee63e4778619d9d97d78",
+          "mediaResourceType": "MediaResourceMediumPost",
+          "href": "https://medium.com/p/1f126068f6d8",
+          "domain": "medium.com",
+          "title": "5 Reasons Why You Should Build A Small Business — Not A Start-up",
+          "description": "",
+          "iframeWidth": 0,
+          "iframeHeight": 0,
+          "iframeSrc": "",
+          "thumbnailUrl": "",
+          "thumbnailWidth": 4288,
+          "thumbnailHeight": 2848,
+          "display": 1,
+          "thumbnailImageId": "1*TmssDsU4fvLhX-oWs7hW2A.jpeg",
+          "authorName": "",
+          "mediumPost": {
+            "postId": "1f126068f6d8"
+          },
+          "type": "MediaResource"
+        }
+      },
+      "Collection": {
+        "668e14b18fb1": {
+          "id": "668e14b18fb1",
+          "name": "Signal v. Noise",
+          "slug": "signal-v-noise",
+          "tags": [
+            "BUSINESS",
+            "DESIGN",
+            "TECHNOLOGY"
+          ],
+          "creatorId": "54bcbf647830",
+          "description": "Strong opinions and shared thoughts on design, business, and technology. Since 1999. Work together the easy way with our all-new version 3 at https://basecamp.com",
+          "shortDescription": "Strong opinions and shared thoughts on design, business…",
+          "image": {
+            "imageId": "1*UUpa5mFtnLRLlT3nzi4FjQ.png",
+            "filter": "",
+            "backgroundSize": "",
+            "originalWidth": 0,
+            "originalHeight": 0,
+            "strategy": "resample",
+            "height": 0,
+            "width": 0
+          },
+          "metadata": {
+            "followerCount": 21043,
+            "postCount": 108,
+            "activeAt": 1461861598122
+          },
+          "virtuals": {
+            "permissions": {
+              "canPublish": false,
+              "canPublishAll": false,
+              "canRepublish": false,
+              "canRemove": false,
+              "canManageAll": false,
+              "canSubmit": false,
+              "canEditPosts": false,
+              "canAddWriters": false,
+              "canViewStats": false,
+              "canSendNewsletter": false,
+              "canViewLockedPosts": false
+            },
+            "isSubscribed": false,
+            "isNewsletterSubscribed": false,
+            "memberOfMembershipPlanId": ""
+          },
+          "logo": {
+            "imageId": "",
+            "filter": "",
+            "backgroundSize": "",
+            "originalWidth": 0,
+            "originalHeight": 0,
+            "strategy": "resample",
+            "height": 0,
+            "width": 0
+          },
+          "twitterUsername": "basecamp",
+          "publicEmail": "email@basecamp.com",
+          "collectionMastheadId": "603c64831b5c",
+          "domain": "m.signalvnoise.com",
+          "sections": [
+            {
+              "type": 2,
+              "collectionHeaderMetadata": {
+                "title": "Signal v. Noise",
+                "description": "Strong opinions and shared thoughts on design, business, and tech. By the makers (and friends) of Basecamp. Since ‘99.",
+                "backgroundImage": {},
+                "logoImage": {
+                  "id": "1*bpxmMpSKLs86DZWiP-_mnw@2x.png",
+                  "originalWidth": 1040,
+                  "originalHeight": 198,
+                  "alt": "Signal v. Noise"
+                },
+                "alignment": 1,
+                "layout": 6
+              }
+            },
+            {
+              "type": 1,
+              "postListMetadata": {
+                "source": 3,
+                "layout": 4,
+                "number": 5,
+                "postIds": [
+                  "edff4a896a83",
+                  "d4ac3dd2defe",
+                  "fa6d4c8cff4e",
+                  "744659addf7d",
+                  "41adf356857f"
+                ]
+              }
+            },
+            {
+              "type": 1,
+              "postListMetadata": {
+                "source": 1,
+                "layout": 6,
+                "number": 15,
+                "postIds": []
+              }
+            },
+            {
+              "type": 1,
+              "postListMetadata": {
+                "source": 4,
+                "layout": 4,
+                "number": 6,
+                "postIds": [],
+                "tagSlug": "Basecamp Updates"
+              }
+            }
+          ],
+          "favicon": {
+            "imageId": "",
+            "filter": "",
+            "backgroundSize": "",
+            "originalWidth": 0,
+            "originalHeight": 0,
+            "strategy": "resample",
+            "height": 0,
+            "width": 0
+          },
+          "colorPalette": {
+            "defaultBackgroundSpectrum": {
+              "colorPoints": [
+                {
+                  "color": "#FF02B875",
+                  "point": 0
+                },
+                {
+                  "color": "#FF00AB6B",
+                  "point": 0.1
+                },
+                {
+                  "color": "#FF1C9963",
+                  "point": 0.2
+                },
+                {
+                  "color": "#FF092E20",
+                  "point": 1
+                }
+              ],
+              "backgroundColor": "#FFFFFFFF"
+            },
+            "highlightSpectrum": {
+              "colorPoints": [
+                {
+                  "color": "#FFFFFFFF",
+                  "point": 0
+                },
+                {
+                  "color": "#FFE9FDF0",
+                  "point": 0.1
+                },
+                {
+                  "color": "#FFE2FAEE",
+                  "point": 0.2
+                },
+                {
+                  "color": "#FFADFFCF",
+                  "point": 0.6
+                },
+                {
+                  "color": "#FF7DFFB3",
+                  "point": 1
+                }
+              ],
+              "backgroundColor": "#FFFFFFFF"
+            }
+          },
+          "navItems": [],
+          "fullTextRssFeed": 0,
+          "colorBehavior": 1,
+          "type": "Collection"
+        },
+        "b230ea2a6eb8": {
+          "id": "b230ea2a6eb8",
+          "name": "Life Learning",
+          "slug": "life-learning",
+          "tags": [
+            "TECH",
+            "ENTREPRENEURSHIP",
+            "STARTUP"
+          ],
+          "creatorId": "8804c3026cce",
+          "description": "Accelerated Learning, Tech, Antifragility, and Definite Optimism",
+          "shortDescription": "Accelerated Learning, Tech, Antifragility, and Definite…",
+          "image": {
+            "imageId": "1*BsB2E0liBZISiG1F1cyOPA.png",
+            "filter": "",
+            "backgroundSize": "",
+            "originalWidth": 0,
+            "originalHeight": 0,
+            "strategy": "resample",
+            "height": 0,
+            "width": 0
+          },
+          "metadata": {
+            "followerCount": 108798,
+            "postCount": 2180,
+            "activeAt": 1462150565388
+          },
+          "virtuals": {
+            "permissions": {
+              "canPublish": false,
+              "canPublishAll": false,
+              "canRepublish": false,
+              "canRemove": false,
+              "canManageAll": false,
+              "canSubmit": false,
+              "canEditPosts": false,
+              "canAddWriters": false,
+              "canViewStats": false,
+              "canSendNewsletter": false,
+              "canViewLockedPosts": false
+            },
+            "isSubscribed": false,
+            "isNewsletterSubscribed": false,
+            "memberOfMembershipPlanId": ""
+          },
+          "logo": {
+            "imageId": "1*bCStwNobvkk5gHgv6novBw.png",
+            "filter": "",
+            "backgroundSize": "",
+            "originalWidth": 600,
+            "originalHeight": 72,
+            "strategy": "resample",
+            "height": 0,
+            "width": 0
+          },
+          "publicEmail": "chadjgrills@Gmail.com",
+          "collectionMastheadId": "c8aef899c6d5",
+          "sections": [
+            {
+              "type": 2,
+              "collectionHeaderMetadata": {
+                "title": "Accelerated Learning, Tech, Antifragility, and Definite Optimism",
+                "description": "",
+                "backgroundImage": {},
+                "logoImage": {
+                  "id": "1*jIc233aWTmcIhWLtle_jfw.png",
+                  "originalWidth": 300,
+                  "originalHeight": 300,
+                  "alt": "Life Learning"
+                },
+                "alignment": 1,
+                "layout": 6
+              }
+            },
+            {
+              "type": 1,
+              "postListMetadata": {
+                "source": 1,
+                "layout": 4,
+                "number": 5,
+                "postIds": []
+              }
+            },
+            {
+              "type": 1,
+              "postListMetadata": {
+                "source": 3,
+                "layout": 5,
+                "number": 7,
+                "postIds": [
+                  "d6a8320bf712",
+                  "9db8b5f86db6",
+                  "f93d5a3b1309",
+                  "abc5cb9129e3",
+                  "f61e7578af7d",
+                  "cc8bbe420246",
+                  "a2c3972806ac"
+                ]
+              }
+            },
+            {
+              "type": 1,
+              "postListMetadata": {
+                "source": 1,
+                "layout": 4,
+                "number": 25,
+                "postIds": []
+              }
+            }
+          ],
+          "tintColor": "#FF24B874",
+          "lightText": false,
+          "favicon": {
+            "imageId": "",
+            "filter": "",
+            "backgroundSize": "",
+            "originalWidth": 0,
+            "originalHeight": 0,
+            "strategy": "resample",
+            "height": 0,
+            "width": 0
+          },
+          "colorPalette": {
+            "defaultBackgroundSpectrum": {
+              "colorPoints": [
+                {
+                  "color": "#FF009E5D",
+                  "point": 0
+                },
+                {
+                  "color": "#FF009258",
+                  "point": 0.1
+                },
+                {
+                  "color": "#FF0C8752",
+                  "point": 0.2
+                },
+                {
+                  "color": "#FF187B4C",
+                  "point": 0.3
+                },
+                {
+                  "color": "#FF1D6F46",
+                  "point": 0.4
+                },
+                {
+                  "color": "#FF1F623F",
+                  "point": 0.5
+                },
+                {
+                  "color": "#FF1F5638",
+                  "point": 0.6
+                },
+                {
+                  "color": "#FF1D4930",
+                  "point": 0.7
+                },
+                {
+                  "color": "#FF193B28",
+                  "point": 0.8
+                },
+                {
+                  "color": "#FF142D1E",
+                  "point": 0.9
+                },
+                {
+                  "color": "#FF0D1E14",
+                  "point": 1
+                }
+              ],
+              "backgroundColor": "#FFFFFFFF"
+            },
+            "tintBackgroundSpectrum": {
+              "colorPoints": [
+                {
+                  "color": "#FF24B874",
+                  "point": 0
+                },
+                {
+                  "color": "#FF48C181",
+                  "point": 0.1
+                },
+                {
+                  "color": "#FF61CA8E",
+                  "point": 0.2
+                },
+                {
+                  "color": "#FF76D29B",
+                  "point": 0.3
+                },
+                {
+                  "color": "#FF8ADAA8",
+                  "point": 0.4
+                },
+                {
+                  "color": "#FF9DE2B5",
+                  "point": 0.5
+                },
+                {
+                  "color": "#FFAEE9C2",
+                  "point": 0.6
+                },
+                {
+                  "color": "#FFBFF1CE",
+                  "point": 0.7
+                },
+                {
+                  "color": "#FFD0F8DB",
+                  "point": 0.8
+                },
+                {
+                  "color": "#FFE0FFE7",
+                  "point": 0.9
+                },
+                {
+                  "color": "#FFEFFFF4",
+                  "point": 1
+                }
+              ],
+              "backgroundColor": "#FF24B874"
+            },
+            "highlightSpectrum": {
+              "colorPoints": [
+                {
+                  "color": "#FFDFFBE5",
+                  "point": 0
+                },
+                {
+                  "color": "#FFD8FBE1",
+                  "point": 0.1
+                },
+                {
+                  "color": "#FFD2FBDD",
+                  "point": 0.2
+                },
+                {
+                  "color": "#FFCBFAD9",
+                  "point": 0.3
+                },
+                {
+                  "color": "#FFC5FAD5",
+                  "point": 0.4
+                },
+                {
+                  "color": "#FFBEFAD1",
+                  "point": 0.5
+                },
+                {
+                  "color": "#FFB6F9CD",
+                  "point": 0.6
+                },
+                {
+                  "color": "#FFAFF9C9",
+                  "point": 0.7
+                },
+                {
+                  "color": "#FFA7F9C5",
+                  "point": 0.8
+                },
+                {
+                  "color": "#FF9FF8C0",
+                  "point": 0.9
+                },
+                {
+                  "color": "#FF97F8BC",
+                  "point": 1
+                }
+              ],
+              "backgroundColor": "#FFFFFFFF"
+            }
+          },
+          "navItems": [
+            {
+              "type": 1,
+              "title": "Tech",
+              "tagSlug": "tech",
+              "source": "tagSlug"
+            },
+            {
+              "type": 1,
+              "title": "Startup",
+              "tagSlug": "startup",
+              "source": "tagSlug"
+            },
+            {
+              "type": 1,
+              "title": "Entrepreneurship",
+              "tagSlug": "entrepreneurship",
+              "source": "tagSlug"
+            },
+            {
+              "type": 1,
+              "title": "Business",
+              "tagSlug": "business",
+              "source": "tagSlug"
+            },
+            {
+              "type": 1,
+              "title": "Life",
+              "tagSlug": "life",
+              "source": "tagSlug"
+            },
+            {
+              "type": 1,
+              "title": "Life Lessons",
+              "tagSlug": "life-lessons",
+              "source": "tagSlug"
+            }
+          ],
+          "fullTextRssFeed": 0,
+          "colorBehavior": 1,
+          "instantArticlesState": 0,
+          "acceleratedMobilePagesState": 0,
+          "type": "Collection"
+        },
+        "ce67810c8a52": {
+          "id": "ce67810c8a52",
+          "name": "Developers Writing",
+          "slug": "developers-writing",
+          "tags": [
+            "DEVELOPER",
+            "CODE",
+            "DEVOPS"
+          ],
+          "creatorId": "acaad8b8d21e",
+          "description": "Developers may not need to blog; but here your words are not wasted.",
+          "shortDescription": "Developers may not need to blog; but here your words are…",
+          "image": {
+            "imageId": "1*dntYmDV2IRefJW6fgA8SIg.jpeg",
+            "filter": "",
+            "backgroundSize": "",
+            "originalWidth": 0,
+            "originalHeight": 0,
+            "strategy": "resample",
+            "height": 0,
+            "width": 0
+          },
+          "metadata": {
+            "followerCount": 752,
+            "postCount": 43,
+            "activeAt": 1461334047713
+          },
+          "virtuals": {
+            "permissions": {
+              "canPublish": false,
+              "canPublishAll": false,
+              "canRepublish": false,
+              "canRemove": false,
+              "canManageAll": false,
+              "canSubmit": false,
+              "canEditPosts": false,
+              "canAddWriters": false,
+              "canViewStats": false,
+              "canSendNewsletter": false,
+              "canViewLockedPosts": false
+            },
+            "isSubscribed": false,
+            "isNewsletterSubscribed": false,
+            "memberOfMembershipPlanId": ""
+          },
+          "logo": {
+            "imageId": "",
+            "filter": "",
+            "backgroundSize": "",
+            "originalWidth": 0,
+            "originalHeight": 0,
+            "strategy": "resample",
+            "height": 0,
+            "width": 0
+          },
+          "twitterUsername": "devswriting",
+          "sections": [
+            {
+              "type": 2,
+              "collectionHeaderMetadata": {
+                "title": "Developers Writing",
+                "description": "Developers may not need to blog; but here your words are not wasted.",
+                "backgroundImage": {},
+                "logoImage": {
+                  "originalWidth": 5472,
+                  "originalHeight": 3648
+                },
+                "alignment": 1,
+                "layout": 6
+              }
+            },
+            {
+              "type": 1,
+              "postListMetadata": {
+                "source": 3,
+                "layout": 2,
+                "number": 3,
+                "postIds": [
+                  "e4fba13d1b50",
+                  "b253dc7e320e",
+                  "f39f12725377"
+                ]
+              }
+            },
+            {
+              "type": 1,
+              "postListMetadata": {
+                "source": 2,
+                "layout": 4,
+                "number": 3,
+                "postIds": []
+              }
+            },
+            {
+              "type": 1,
+              "postListMetadata": {
+                "source": 1,
+                "layout": 6,
+                "number": 5,
+                "postIds": []
+              }
+            }
+          ],
+          "favicon": {
+            "imageId": "",
+            "filter": "",
+            "backgroundSize": "",
+            "originalWidth": 0,
+            "originalHeight": 0,
+            "strategy": "resample",
+            "height": 0,
+            "width": 0
+          },
+          "colorPalette": {
+            "defaultBackgroundSpectrum": {
+              "colorPoints": [
+                {
+                  "color": "#FF02B875",
+                  "point": 0
+                },
+                {
+                  "color": "#FF00AB6B",
+                  "point": 0.1
+                },
+                {
+                  "color": "#FF1C9963",
+                  "point": 0.2
+                },
+                {
+                  "color": "#FF092E20",
+                  "point": 1
+                }
+              ],
+              "backgroundColor": "#FFFFFFFF"
+            },
+            "highlightSpectrum": {
+              "colorPoints": [
+                {
+                  "color": "#FFFFFFFF",
+                  "point": 0
+                },
+                {
+                  "color": "#FFE9FDF0",
+                  "point": 0.1
+                },
+                {
+                  "color": "#FFE2FAEE",
+                  "point": 0.2
+                },
+                {
+                  "color": "#FFADFFCF",
+                  "point": 0.6
+                },
+                {
+                  "color": "#FF7DFFB3",
+                  "point": 1
+                }
+              ],
+              "backgroundColor": "#FFFFFFFF"
+            }
+          },
+          "fullTextRssFeed": 0,
+          "type": "Collection"
+        }
+      },
+      "Post": {
+        "d4ac3dd2defe": {
+          "id": "d4ac3dd2defe",
+          "versionId": "5712d50b6894",
+          "creatorId": "3334a58db4c1",
+          "homeCollectionId": "668e14b18fb1",
+          "title": "I’m a boring programmer (and proud of it)",
+          "detectedLanguage": "en",
+          "latestVersion": "5712d50b6894",
+          "latestPublishedVersion": "5712d50b6894",
+          "hasUnpublishedEdits": false,
+          "latestRev": 985,
+          "createdAt": 1459459217755,
+          "updatedAt": 1460056919393,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1459620884148,
+          "latestPublishedAt": 1459622766022,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "subtitle": "I have a confession to make — I’m not a rock star programmer. Nor am I a hacker. I don’t know ninjutsu. Nobody has ever called me a wizard.",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "statusForCollection": "APPROVED",
+            "createdAtRelative": "a month ago",
+            "updatedAtRelative": "24 days ago",
+            "acceptedAtRelative": "",
+            "createdAtEnglish": "March 31, 2016",
+            "updatedAtEnglish": "April 7, 2016",
+            "acceptedAtEnglish": "",
+            "firstPublishedAtEnglish": "April 2, 2016",
+            "latestPublishedAtEnglish": "April 2, 2016",
+            "allowNotes": true,
+            "snippet": "I have a confession to make — I’m not a rock star programmer. Nor am I a hacker. I don’t know ninjutsu. Nobody has ever called me a wizard.",
+            "previewImage": {
+              "imageId": "1*bZmUgjuLoEfORUYrm3KC3Q.jpeg",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 3637,
+              "originalHeight": 1481,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0,
+              "focusPercentX": 49,
+              "focusPercentY": 43
+            },
+            "wordCount": 659,
+            "imageCount": 3,
+            "readingTime": 3.0367924528301886,
+            "subtitle": "I have a confession to make — I’m not a rock star programmer. Nor am I a hacker. I don’t know ninjutsu. Nobody has ever called me a wizard.",
+            "publishedInCount": 1,
+            "usersBySocialRecommends": [],
+            "latestPublishedAtAbbreviated": "Apr 2",
+            "firstPublishedAtAbbreviated": "Apr 2",
+            "emailSnippet": "Still, I take pride in the fact that I’m a good, solid programmer. One who works hard at his craft and really enjoys it, even without the fancy labels. ¶\n\nYet every week I see a call for ninja programmers, who I assume slice lines of code with incredible precision. I read about tech rock stars, who I imagine write functions as beautiful as the “Stairway to Heaven” solo. I hear people throw around the word hacker (and the associated hack, hackfest, and hackathon) as if haphazardly chopping…",
+            "recommends": 1737,
+            "isBookmarked": false,
+            "tags": [
+              {
+                "slug": "programming",
+                "name": "Programming",
+                "postCount": 13410,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 11102,
+                  "postCount": 13410,
+                  "coverImage": {
+                    "id": "1*20Tzku70NBrLgBw6Z7snaQ.jpeg",
+                    "originalWidth": 1080,
+                    "originalHeight": 1080
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "jobs",
+                "name": "Jobs",
+                "postCount": 5742,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 30733,
+                  "postCount": 5742,
+                  "coverImage": {
+                    "id": "1*zcXJNfgnPIHs4Kb288PMUg.png",
+                    "originalWidth": 2265,
+                    "originalHeight": 314
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "software-development",
+                "name": "Software Development",
+                "postCount": 6031,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 4662,
+                  "postCount": 6031,
+                  "coverImage": {
+                    "id": "1*IJlgGsOIpq0lKTdf6lZATA.png",
+                    "originalWidth": 1024,
+                    "originalHeight": 1024,
+                    "focusPercentX": 77,
+                    "focusPercentY": 26
+                  }
+                },
+                "type": "Tag"
+              }
+            ],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 104,
+            "links": {
+              "entries": [
+                {
+                  "url": "https://m.signalvnoise.com/sleep-deprivation-is-not-a-badge-of-honor-f24fbff47a75#.glu9g09tv",
+                  "alts": [
+                    {
+                      "type": 2,
+                      "url": "medium://p/f24fbff47a75"
+                    },
+                    {
+                      "type": 3,
+                      "url": "medium://p/f24fbff47a75"
+                    }
+                  ]
+                }
+              ],
+              "version": "0.1"
+            },
+            "isLockedPreviewOnly": false
+          },
+          "coverless": true,
+          "slug": "i-m-a-boring-programmer-and-proud-of-it",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "i-m-a-boring-programmer-and-proud-of-it-d4ac3dd2defe",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [
+                {
+                  "name": "6951",
+                  "type": 3,
+                  "text": "I’m a boring programmer (and proud of it)",
+                  "markups": [],
+                  "alignment": 1
+                },
+                {
+                  "name": "302f",
+                  "type": 4,
+                  "text": "",
+                  "markups": [
+                    {
+                      "type": 3,
+                      "start": 90,
+                      "end": 99,
+                      "href": "https://twitter.com/nongallery",
+                      "title": "",
+                      "rel": "",
+                      "anchorType": 0
+                    },
+                    {
+                      "type": 1,
+                      "start": 0,
+                      "end": 100
+                    }
+                  ],
+                  "layout": 10,
+                  "metadata": {
+                    "id": "1*bZmUgjuLoEfORUYrm3KC3Q.jpeg",
+                    "originalWidth": 3637,
+                    "originalHeight": 1481,
+                    "focusPercentX": 49,
+                    "focusPercentY": 43
+                  }
+                },
+                {
+                  "name": "fb3d",
+                  "type": 1,
+                  "text": "I have a confession to make — I’m not a rock star programmer. Nor am I a hacker. I don…",
+                  "markups": [],
+                  "alignment": 1
+                }
+              ],
+              "sections": [
+                {
+                  "startIndex": 0
+                }
+              ]
+            },
+            "isFullContent": false
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "668e14b18fb1",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "type": "Post"
+        },
+        "1f126068f6d8": {
+          "id": "1f126068f6d8",
+          "versionId": "3fe97a2dee1f",
+          "creatorId": "5ce28105ffbc",
+          "homeCollectionId": "b230ea2a6eb8",
+          "title": "5 Reasons Why You Should Build A Small Business — Not A Start-up",
+          "detectedLanguage": "en",
+          "latestVersion": "3fe97a2dee1f",
+          "latestPublishedVersion": "3fe97a2dee1f",
+          "hasUnpublishedEdits": false,
+          "latestRev": 408,
+          "createdAt": 1450390911886,
+          "updatedAt": 1450829109496,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1450395568295,
+          "latestPublishedAt": 1450421776277,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "subtitle": "BY JON WESTENBERG",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "statusForCollection": "APPROVED",
+            "createdAtRelative": "4 months ago",
+            "updatedAtRelative": "4 months ago",
+            "acceptedAtRelative": "",
+            "createdAtEnglish": "December 17, 2015",
+            "updatedAtEnglish": "December 22, 2015",
+            "acceptedAtEnglish": "",
+            "firstPublishedAtEnglish": "December 17, 2015",
+            "latestPublishedAtEnglish": "December 17, 2015",
+            "allowNotes": true,
+            "snippet": "BY JON WESTENBERG",
+            "previewImage": {
+              "imageId": "1*TmssDsU4fvLhX-oWs7hW2A.jpeg",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 4288,
+              "originalHeight": 2848,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0
+            },
+            "wordCount": 688,
+            "imageCount": 1,
+            "readingTime": 2.7962264150943397,
+            "subtitle": "BY JON WESTENBERG",
+            "publishedInCount": 1,
+            "usersBySocialRecommends": [],
+            "latestPublishedAtAbbreviated": "Dec 17, 2015",
+            "firstPublishedAtAbbreviated": "Dec 17, 2015",
+            "emailSnippet": "I know we all want to do important things. We all want to work on important products, start important companies and accomplish tasks that could change the world and have an enormous impact. I see this in entrepreneurs and the tech community more than anywhere else. ¶\n\nThe question we ask, whenever we hear about a new business or idea, whether it’s renewable energy or a messaging app or a fucking hamster sled, is this: ¶\n\nWill it scale?",
+            "recommends": 3596,
+            "isBookmarked": false,
+            "tags": [
+              {
+                "slug": "startup",
+                "name": "Startup",
+                "postCount": 74323,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 238325,
+                  "postCount": 74323,
+                  "coverImage": {
+                    "id": "1*B7CKEm76MInjxpNkpq-oGQ.jpeg",
+                    "originalWidth": 1612,
+                    "originalHeight": 808
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "entrepreneurship",
+                "name": "Entrepreneurship",
+                "postCount": 52591,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 221110,
+                  "postCount": 52591,
+                  "coverImage": {
+                    "id": "1*_dWFMwP7CEp6ue09ACaYYA.jpeg",
+                    "originalWidth": 600,
+                    "originalHeight": 319
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "business",
+                "name": "Business",
+                "postCount": 26672,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 272134,
+                  "postCount": 26672,
+                  "coverImage": {
+                    "id": "1*bUnzLePRb7E25uoUEMYQgA.png",
+                    "originalWidth": 1189,
+                    "originalHeight": 589
+                  }
+                },
+                "type": "Tag"
+              }
+            ],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 167,
+            "links": {
+              "entries": [],
+              "version": "0.1"
+            },
+            "isLockedPreviewOnly": false
+          },
+          "coverless": true,
+          "slug": "5-reasons-why-you-should-build-a-small-business-not-a-start-up",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "5-reasons-why-you-should-build-a-small-business-not-a-start-up-1f126068f6d8",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [
+                {
+                  "name": "6ba0",
+                  "type": 4,
+                  "text": "",
+                  "markups": [
+                    {
+                      "type": 3,
+                      "start": 14,
+                      "end": 26,
+                      "href": "https://unsplash.com/photos/SpVHcbuKi6E",
+                      "title": "",
+                      "rel": "",
+                      "anchorType": 0
+                    }
+                  ],
+                  "layout": 10,
+                  "metadata": {
+                    "id": "1*TmssDsU4fvLhX-oWs7hW2A.jpeg",
+                    "originalWidth": 4288,
+                    "originalHeight": 2848
+                  }
+                },
+                {
+                  "name": "930c",
+                  "type": 3,
+                  "text": "5 Reasons Why You Should Build A Small Business — Not A Start-up",
+                  "markups": [],
+                  "alignment": 1
+                }
+              ],
+              "sections": [
+                {
+                  "startIndex": 0
+                }
+              ]
+            },
+            "isFullContent": false
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "b230ea2a6eb8",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "type": "Post"
+        }
+      }
+    }
+  },
+  "v": 3,
+  "b": "21310-3d56473"
+}

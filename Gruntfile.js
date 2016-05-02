@@ -5,6 +5,8 @@ module.exports = function (grunt) {
   // Time how long tasks take. Can help when optimizing build times
   require('time-grunt')(grunt);
 
+  // var urlRewrite = require('grunt-connect-rewrite');
+
   // Automatically load required Grunt tasks
   require('jit-grunt')(grunt, {
     useminPrepare: 'grunt-usemin',
@@ -27,7 +29,7 @@ module.exports = function (grunt) {
       'david-meza': {
         options: {
           project: '<%= config.dist %>',
-          domain: 'david-meza.surge.sh'
+          domain: 'david-meza.com'
         }
       }
     },
@@ -81,6 +83,12 @@ module.exports = function (grunt) {
           open: true,
           middleware: function (connect) {
             return [
+              // redirect all urls to index.html in app folder
+              // urlRewrite(config.app, 'index.html'),
+
+              // Make empty directories browsable.
+              // connect.directory(config.app),
+              
               connect.static('.tmp'),
               connect().use(
                 '/bower_components',

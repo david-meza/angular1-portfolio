@@ -22,7 +22,7 @@
       }
 
       function logError(response) {
-        console.log('Failed to get data from activities server', response);
+        console.log('Failed to get data from github server', response);
         return $q.reject(response);
       }
 

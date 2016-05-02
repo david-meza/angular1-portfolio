@@ -7,3 +7,5 @@
 /report
 
 npm-debug.log
+
+# /app/scripts/*.json
