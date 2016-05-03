@@ -1,0 +1,119 @@
+@include keyframes(fade-in) {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@include keyframes(blinking) {
+  from, to { border-color: transparent; }
+  50% { border-color: $accent; }
+}
+@include keyframes(typing) {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+// Typing animation CSS properties
+// overflow: hidden;
+// white-space: nowrap;
+// border-right: 2px solid $accent;
+// @include animation( typing 2s steps(19,end) 0s 1 normal forwards, blinking 1s step-end 0s infinite normal forwards );
+
+@include keyframes(slide-in-ltr) {
+  from { @include transform(translateX(-100px)); opacity: 0; }
+  to { @include transform(translateX(0)); opacity: 1; }
+}
+@include keyframes(slide-in-rtl) {
+  from { @include transform(translateX(100px)); opacity: 0; }
+  to { @include transform(translateX(0)); opacity: 1; }
+}
+@include keyframes(slide-in-btt) {
+  from { @include transform(translateY(100px)); opacity: 0; }
+  to { @include transform(translateX(0)); opacity: 1; }
+}
+@include keyframes(slide-in-ttb) {
+  from { @include transform(translateY(-100px)); opacity: 0; }
+  to { @include transform(translateX(0)); opacity: 1; }
+}
+@include keyframes(scale-in) {
+  to { @include transform(scale(1,1)); }
+}
+
+@include keyframes(pulsate) {
+  0% { @include transform( scale(1,1) ); }
+  10% { @include transform( scale(1.25,1.25) ); }
+  20% { @include transform( scale(1,1) ); }
+}
+
+@include keyframes(screen-flicker) {
+  0%   { opacity: 1; }
+  13%  { opacity: 1; }
+  18%  { opacity: 0; }
+  92%  { opacity: 0; }
+  100% { opacity: 0; } // 1 if infinite loop animation
+}
+
+@include keyframes(small-tentacle) {
+  0%   { transform: rotate(-60deg); }
+  86%  { transform: rotate(-60deg); }
+  89%  { transform: rotate(10deg); }
+  100% { transform: rotate(10deg); }
+}
+
+@include keyframes(tentacle) {
+  0%    { transform: rotate(-30deg); }
+  75%   { transform: rotate(-30deg); }
+  80%   { transform: rotate(-165deg) translate(6px, 8px); }
+  82.5% { transform: rotate(-165deg) translate(28px, -17px); }
+  100%  { transform: rotate(-165deg) translate(35px, -22px); }
+}
+
+@include keyframes(ship) {
+  0% {
+    right: -10%;
+    top: -10%;
+    margin-top: -55px;
+    margin-right: -55px;
+  }
+  40% {
+    right: 50%;
+    top: 50%;
+  }
+  79.5% {    
+    margin-top: -55px;
+    margin-right: -55px;
+  }
+  84% {
+    margin-top: -20px;
+    margin-right: 0px;
+  }
+  100% {
+    right: 50%;
+    top: 50%;
+    margin-top: 0px;
+    margin-right: 0px;
+  }
+}
+
+@include keyframes(ship-rotate) {
+  0%   { transform: rotate(-110deg); }
+  20%  { transform: rotate(-110deg); }
+  34%  { transform: rotate(47deg); }  
+  79%  { transform: rotate(47deg); } 
+  100%  { transform: rotate(47deg); }
+}
+
+@include keyframes(flag-pole) {
+  0%   { top: -57px; }
+  48%  { top: -57px; }
+  54%  { top: -77px; }
+  90%  { top: -77px; }
+  92%  { top: -57px; }
+  100% { top: -57px; }
+}
+
+@include keyframes(flag-unfurl) {
+  0%   { width: 0; }
+  55%  { width: 0; }
+  60%  { width: 14px; }
+  90%  { width: 14px; }
+  100% { width: 14px; }
+}
