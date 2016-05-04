@@ -38,9 +38,7 @@
 
       function extractIndividualPost(post) {
         if (post.virtuals.wordCount < 100) { return; }
-
         post.firstPublishedAt = new Date(post.firstPublishedAt);
-
         this.push(post);
       }
 
@@ -50,12 +48,11 @@
         return _posts;
       }
 
-    
+      return {
+        getPosts: getPosts
+      };
 
-    return {
-      getPosts: getPosts
-    };
-
-  }]);
+    }
+  ]);
   
 })(window.angular || angular);

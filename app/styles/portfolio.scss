@@ -249,14 +249,24 @@ p {
   background-color: rgba(0,0,0,0.02);
 }
 
-.blog-content {
-  .card-title {
-    color: $teal;
-    font-weight: 500;
-    &:hover, &:focus, &:active {
-      color: $teal-700;
-    }
+.about-content {
+  .parallax-1 {
+    background: rgba(0,188,212,0.6) url('/img/wilmington.jpg') no-repeat fixed center;
+    background-size: contain;
   }
+
+  .parallax-2 {
+    background: rgba(0,188,212,0.6) url('/img/winter.jpg') no-repeat fixed center;
+    background-size: contain;
+  }
+
+  .minimal-bg, .minimal-bg-2, .minimal-bg-3, .minimal-bg-4 {
+    background-color: $primary;
+    color: $light-white;
+  }
+}
+
+.blog-content {
   .line-break {
     width: 100%;
   }
@@ -266,6 +276,18 @@ p {
   .page-subheader, .medium-story-card {
     max-width: 100%;
     width: 800px;
+
+    .avatar-image {
+      border-radius: 50%;
+    }
+
+    .card-title {
+      color: $teal;
+      font-weight: 500;
+      &:hover, &:focus, &:active {
+        color: $teal-700;
+      }
+    }
 
     .medium-story-title {
       font-size: 22px;
