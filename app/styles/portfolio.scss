@@ -260,9 +260,17 @@ p {
     background-size: contain;
   }
 
+  .section-content {
+    font-size: 20px;
+  }
+
   .minimal-bg, .minimal-bg-2, .minimal-bg-3, .minimal-bg-4 {
-    background-color: $primary;
+    background-color: $accent;
     color: $light-white;
+
+    .section-title {
+      font-size: 30px;
+    }
   }
 }
 
