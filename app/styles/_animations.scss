@@ -57,6 +57,8 @@
   100% { opacity: 0; } // 1 if infinite loop animation
 }
 
+
+// Mars landing animations
 @include keyframes(small-tentacle) {
   0%   { transform: rotate(-60deg); }
   86%  { transform: rotate(-60deg); }
@@ -122,4 +124,105 @@
   60%  { width: 14px; }
   90%  { width: 14px; }
   100% { width: 14px; }
+}
+
+// Heroes animations
+
+@include keyframes(shake) { 
+ 78%, 80%,82%,84%,86%,88%,90%,92% { 
+    top:3px;
+    left:2px; 
+  }
+  79%,81%,83%,85%,87%,89%,91% {
+    top:0px;
+    left:-2px;
+  } 
+}
+
+@include keyframes(mouthOpen) {
+  77%{height:0px;}
+  80%{
+    height:22px;
+  }
+  93%{
+    height:22px;
+    opacity:1;
+  }
+  95%{
+    height:0px;
+    opacity:0;
+  }
+}
+
+
+@include keyframes(hulkHands){
+ 6%{
+   box-shadow: 11.1em 0 0 #b5b500;
+ }
+ 77%{
+   box-shadow: 11.1em 0 0 #b5b500;
+   margin-left:-2.1em; 
+   @include transform( translate(0,0) );
+  }
+  80%{
+    margin-left:0.5em; 
+    box-shadow:8.5em 0 0 #b5b500;
+    @include transform( translate(-0.9em,-19.9em) );
+   
+  }
+  93%{
+    margin-left:0.5em;
+    box-shadow:8.5em 0 0 #b5b500;
+    @include transform( translate(-0.9em,-19.9em) );
+  }
+  94%{
+    box-shadow: 11.1em 0 0 #b5b500;
+    margin-left:-2.1em; 
+    @include transform( translate(0em,-0em) );
+  }
+}
+
+@include keyframes(hulkRightarm){
+  77%{
+    margin-top:1em;
+    margin-left:2em;
+    clip: rect(-1em, 11.2em, 12.55em, 7.625em);
+  }
+  80%{
+    margin-top:-8.125em;
+    margin-left:2.5em;
+    clip: rect(0.563em, 13.363em, 13.75em, 6.625em);
+  }
+  93%{
+    margin-top:-8.125em;
+    margin-left:2.5em;
+    clip: rect(0.563em, 13.363em, 13.75em, 6.625em);
+  }
+  95%{
+    margin-top:1em;
+    margin-left:2em;
+    clip: rect(-1em, 11.2em, 12.55em, 7.625em);
+  }
+}
+@include keyframes(hulkLeftarm){
+  77%{
+    margin-top:1em;
+    margin-left:-4.3em;
+    clip: rect(-0.188em, 6.1em, 13.875em, 2.3em);
+  }
+  80%{
+    margin-top:-8.125em;
+    margin-left:-4.375em;
+    clip: rect(-0.188em, 6.563em, 13.875em, 0em);
+  }
+  93%{
+    margin-top:-8.125em;
+    margin-left:-4.375em;
+    clip: rect(-0.188em, 6.563em, 13.875em, 0em);
+  }
+  95%{
+    margin-top:1em;
+    margin-left:-4.3em;
+    clip: rect(-0.188em, 6.1em, 13.875em, 2.3em);
+  }
 }
