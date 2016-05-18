@@ -27,11 +27,17 @@
 }
 @include keyframes(slide-in-btt) {
   from { @include transform(translateY(100px)); opacity: 0; }
-  to { @include transform(translateX(0)); opacity: 1; }
+  to { @include transform(translateY(0)); opacity: 1; }
 }
 @include keyframes(slide-in-ttb) {
   from { @include transform(translateY(-100px)); opacity: 0; }
-  to { @include transform(translateX(0)); opacity: 1; }
+  to { @include transform(translateY(0)); opacity: 1; }
+}
+@include keyframes(scroll-down) {
+  0% { @include transform(translateY(0) ); opacity: 0; }
+  49%, 51% { opacity: 0.87; }
+  50% { @include transform(translateY(15px) ); opacity: 0.95; }
+  100% { @include transform(translateY(30px) ); opacity: 0; }
 }
 @include keyframes(scale-in) {
   to { @include transform(scale(1,1)); }

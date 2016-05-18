@@ -5,7 +5,6 @@
   angular.module('appControllers').controller('experienceCtrl', ['$scope', '$http',
     function($scope, $http){
 
-
       $scope.openResume = function() {
         return $http
           .get('support/DavidMResume.pdf', {responseType: 'arraybuffer'})
@@ -14,9 +13,7 @@
             var fileURL = URL.createObjectURL(file);
             window.open(fileURL);
           });
-        
       }
-
 
     }
   ]);
