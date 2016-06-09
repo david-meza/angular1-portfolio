@@ -129,13 +129,11 @@
 // Heroes animations
 
 @include keyframes(shake) { 
- 78%, 80%,82%,84%,86%,88%,90%,92% { 
-    top:3px;
-    left:2px; 
+ 78%,80%,82%,84%,86%,88%,90%,92% { 
+    @include transform( translate(2px,3px) );
   }
   79%,81%,83%,85%,87%,89%,91% {
-    top:0px;
-    left:-2px;
+    @include transform( translate(-2px,0px) );
   } 
 }
 

@@ -21,16 +21,23 @@ $heroes-animation: 12s;
 
 #heroes-wrapper {
 
+  z-index: 1;
+  min-height: 400px;
+  height: 50%; 
+  animation: shake $heroes-animation infinite;
+  
   *, *:before, *:after { 
     box-sizing:border-box;
-  }  
+  }
 
-  z-index: 1;  
-  position:relative;
-  width:550px;
-  height:365px;
-  animation: shake $heroes-animation infinite;
-
+  .frame-size {
+    height: 100%;
+    @include transform( translateX(30%) );
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
 
   .hulk{
     position:absolute;
@@ -42,10 +49,10 @@ $heroes-animation: 12s;
       position:absolute;
       margin-top:-2.75em;
       margin-left:3.563em;    
-        border-bottom: 3.75em solid $verdeHulk;
-        border-left: 0.938em solid transparent;
-        border-right: 0.938em solid transparent;
-        height: 0;
+      border-bottom: 3.75em solid $verdeHulk;
+      border-left: 0.938em solid transparent;
+      border-right: 0.938em solid transparent;
+      height: 0;
       z-index:10;
       &::after {
         content:"";
