@@ -17,6 +17,8 @@ $deep-purple: #673ab7;
 $deep-purple-900: #311b92;
 $teal: #009688;
 $teal-700: #00796b;
+$cyan: #00BCD4;
+$cyan-700: #0097A7;
 $gray: rgba(0, 0, 0, 0.68);
 $dark-text: rgba(38, 47, 98, 0.78);
 $light-white: rgba(255, 255, 255, 0.83);
@@ -74,10 +76,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 img, h1, h2 {
-  -webkit-user-select: none;  
-     -moz-user-select: none;    
+  -webkit-user-select: none;
+     -moz-user-select: none;
       -ms-user-select: none;
-          user-select: none;  
+          user-select: none;
 }
 
 .gradient-primary {
@@ -317,6 +319,15 @@ p {
 
   }
 
+  .minimal-bg {
+    @include radial-gradient($teal, $teal-700);
+    color: $light-white;
+  }
+
+  .background-wrapper {
+    background-color: rgba($black, 0.55);
+  }
+
   .parallax-1 {
     background: rgba(0,188,212,0.6) url('/img/wilmington.jpg') no-repeat fixed center;
     background-size: cover;
@@ -325,13 +336,17 @@ p {
 
   .parallax-2 {
     background: rgba(0,188,212,0.6) url('/img/winter.jpg') no-repeat fixed center;
-    background-size: contain;
+    background-size: cover;
   }
 
-  .background-wrapper {
+  .background-wrapper, .pos-abs {
     position: absolute;
-    background-color: rgba($black, 0.55);
-    
+
+    a {
+      color: $indigo;
+      text-shadow: 0 0 0px $indigo;
+    }
+
     .content-text {
       color: $light-white;
 
@@ -344,11 +359,6 @@ p {
     }
   }
 
-  .minimal-bg, .minimal-bg-2, .minimal-bg-3, .minimal-bg-4 {
-    background-color: $indigo-400;
-    color: $light-white;
-
-  }
 }
 
 
@@ -755,7 +765,7 @@ md-toolbar {
 
   .about-content {
     .parallax-1, .parallax-2 {
-      background: $indigo;
+      @include radial-gradient($cyan, $cyan-700);
     }
   }
 
@@ -782,21 +792,17 @@ md-toolbar {
     .about-content-padding {
       padding: 2px 14px;
     }
-    .background-wrapper {
+    .background-wrapper, .pos-abs {
       .section-title {
         padding: 15px 0;
       }
 
       .content-text {
         .section-content {
-          font-size: 17px;
+          font-size: 16px;
           margin: 10px 0;
         }
       }
-    }
-
-    .parallax-1, .parallax-2 {
-      background: $indigo;
     }
   }
 
