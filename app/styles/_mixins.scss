@@ -98,3 +98,46 @@
   -ms-flex-pack:            $value;
   justify-content:          $value;
 }
+
+@mixin star($top, $left) {
+  display: block;
+  color: $white;
+  width: 0px;
+  height: 0px;
+  border-right:  10px solid transparent;
+  border-bottom: 7px  solid $white;
+  border-left:   10px solid transparent;
+  margin-top: $top;
+  margin-left: $left; 
+  position: absolute;
+  transform:    rotate(35deg);
+  
+  &::before {
+    border-bottom: 8px solid $white;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    position: relative; 
+    height: 0;
+    width: 0;
+    top: -4px;
+    left: -6px;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+  }
+  
+  &::after {
+    position: absolute;
+    display: block;
+    color: red;
+    top: 0px;
+    left: -10px;
+    width: 0px;
+    height: 0px;
+    border-right: 10px solid transparent;
+    border-bottom: 7px solid $white;
+    border-left: 10px solid transparent;
+    transform: rotate(-70deg);
+    content: '';
+  }
+}

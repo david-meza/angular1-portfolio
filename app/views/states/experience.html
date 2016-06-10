@@ -1,1 +1,40 @@
 <toolbar title="Experience"></toolbar>
+
+<md-content class="flex layout-padding experience-content">
+
+  <!-- Should replace card with timeline using angular timeline -->
+
+  <div class="layout-row layout-wrap layout-align-center-stretch">
+    <md-card flex="100" flex-gt-sm="45" flex-gt-md="30">
+      <md-card-header>
+        <md-card-avatar>
+          <img src="https://media.licdn.com/media/p/2/005/022/392/2a6d1dc.png" alt="City of Raleigh Logo">
+        </md-card-avatar>
+        <md-card-header-text>
+          <span class="md-title">AngularJS Developer</span>
+          <span class="md-subhead">City of Raleigh Municipal Government</span>
+        </md-card-header-text>
+      </md-card-header>
+
+      <md-card-content>
+        <div class="layout-row layout-align-end-center">
+          <span class="experience-dates">October 2015 – June 2016 | Raleigh, NC</span>
+        </div>
+        <ul>
+          <li>Develop web applications such as mapping and public works tools as part of the GIS team</li>
+          <li>Write scripts to automate repeated tasks and optimize coworkers’ efficiency by 100%</li>
+          <li>Modernize existing web applications that are no longer supported by modern devices and browsers</li>
+        </ul>
+      </md-card-content>
+    </md-card>  
+  </div>
+
+  <div class="layout-row layout-align-center-center">
+    <md-button ng-click="openResume()" class="md-accent md-raised">
+      <md-icon md-font-icon="fa-download" class="fa fa-lg"></md-icon>
+      PDF Resume
+    </md-button>
+  </div>
+
+  
+</md-content>
