@@ -6,7 +6,7 @@
       "name": "David Meza",
       "username": "DavidMe93",
       "createdAt": 1436761178782,
-      "lastPostCreatedAt": 1461347845667,
+      "lastPostCreatedAt": 1464273646782,
       "imageId": "0*dosdxo9R9evMDmU5.jpeg",
       "backgroundImageId": "",
       "bio": "Human being, son of two parents, eats food, breathes for a living, can speak, has 10/10 fingers and toes, wait... maybe.",
@@ -16,6 +16,180 @@
       "type": "User"
     },
     "posts": [
+      {
+        "id": "1a0881ebee0",
+        "versionId": "baab5a1fc009",
+        "creatorId": "bb25a5c8f53b",
+        "homeCollectionId": "",
+        "title": "Happy first programming anniversary to me!",
+        "detectedLanguage": "en",
+        "latestVersion": "baab5a1fc009",
+        "latestPublishedVersion": "baab5a1fc009",
+        "hasUnpublishedEdits": false,
+        "latestRev": 1016,
+        "createdAt": 1464273646782,
+        "updatedAt": 1464795673319,
+        "acceptedAt": 0,
+        "firstPublishedAt": 1464795358495,
+        "latestPublishedAt": 1464795673319,
+        "vote": false,
+        "experimentalCss": "",
+        "displayAuthor": "",
+        "virtuals": {
+          "createdAtRelative": "15 days ago",
+          "updatedAtRelative": "9 days ago",
+          "acceptedAtRelative": "",
+          "createdAtEnglish": "May 26, 2016",
+          "updatedAtEnglish": "June 1, 2016",
+          "acceptedAtEnglish": "",
+          "firstPublishedAtEnglish": "June 1, 2016",
+          "latestPublishedAtEnglish": "June 1, 2016",
+          "allowNotes": true,
+          "snippet": "A story of how I learned programming and web development, and a year of experiences.",
+          "previewImage": {
+            "imageId": "1*tr-mWNyrHNmKtLi4GcW0jA.jpeg",
+            "filter": "",
+            "backgroundSize": "",
+            "originalWidth": 5472,
+            "originalHeight": 3648,
+            "strategy": "resample",
+            "height": 0,
+            "width": 0
+          },
+          "wordCount": 1751,
+          "imageCount": 1,
+          "readingTime": 6.807547169811321,
+          "subtitle": "A story of how I learned programming and web development, and a year of experiences.",
+          "usersBySocialRecommends": [],
+          "latestPublishedAtAbbreviated": "Jun 1",
+          "firstPublishedAtAbbreviated": "Jun 1",
+          "emailSnippet": "According to my Github profile I’ve completed a year of commits and I can see a clear timeline of how my skills have continuously progressed and evolved through the months. ¶\n\nPart I: Struggle After Graduation ¶\n\nIt all started a few weeks before I graduated from college. I had spent at least 3 months already job hunting and I had no good leads. I had sent my resume to hundreds of companies, offering my technical skills and wanting to work in the technology field.",
+          "recommends": 0,
+          "isBookmarked": false,
+          "tags": [
+            {
+              "slug": "programming",
+              "name": "Programming",
+              "postCount": 15976,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 12890,
+                "postCount": 15976,
+                "coverImage": {
+                  "id": "1*dTe3vntI9r6BiEcmHz9VkA.jpeg",
+                  "originalWidth": 1920,
+                  "originalHeight": 817
+                }
+              },
+              "type": "Tag"
+            },
+            {
+              "slug": "web-development",
+              "name": "Web Development",
+              "postCount": 16657,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 12420,
+                "postCount": 16657,
+                "coverImage": {
+                  "id": "1*swrEZXQYr_JS9tG5vP0hYw.png",
+                  "originalWidth": 1179,
+                  "originalHeight": 801
+                }
+              },
+              "type": "Tag"
+            },
+            {
+              "slug": "job-hunting",
+              "name": "Job Hunting",
+              "postCount": 2461,
+              "virtuals": {
+                "isFollowing": false
+              },
+              "metadata": {
+                "followerCount": 335,
+                "postCount": 2461,
+                "coverImage": {
+                  "id": "1*i7rYUq5Fvzw3yffBj1lE9A.jpeg",
+                  "originalWidth": 1169,
+                  "originalHeight": 549
+                }
+              },
+              "type": "Tag"
+            }
+          ],
+          "socialRecommendsCount": 0,
+          "responsesCreatedCount": 0,
+          "links": {
+            "entries": [],
+            "version": "0.1"
+          },
+          "isLockedPreviewOnly": false
+        },
+        "coverless": true,
+        "slug": "happy-first-programming-anniversary-to-me",
+        "translationSourcePostId": "",
+        "translationSourceCreatorId": "",
+        "isApprovedTranslation": false,
+        "inResponseToPostId": "",
+        "inResponseToRemovedAt": 0,
+        "isTitleSynthesized": false,
+        "allowResponses": true,
+        "importedUrl": "",
+        "importedPublishedAt": 0,
+        "visibility": 0,
+        "uniqueSlug": "happy-first-programming-anniversary-to-me-1a0881ebee0",
+        "previewContent": {
+          "bodyModel": {
+            "paragraphs": [
+              {
+                "name": "previewImage",
+                "type": 4,
+                "text": "",
+                "layout": 10,
+                "metadata": {
+                  "id": "1*tr-mWNyrHNmKtLi4GcW0jA.jpeg",
+                  "originalWidth": 5472,
+                  "originalHeight": 3648
+                }
+              },
+              {
+                "name": "previewTitle",
+                "type": 2,
+                "text": "Happy first programming anniversary to me!",
+                "alignment": 1
+              },
+              {
+                "name": "previewSubtitle",
+                "type": 13,
+                "text": "A story of how I learned programming and web development…",
+                "alignment": 1
+              }
+            ],
+            "sections": [
+              {
+                "startIndex": 0
+              }
+            ]
+          },
+          "isFullContent": false
+        },
+        "license": 0,
+        "inResponseToMediaResourceId": "",
+        "canonicalUrl": "",
+        "approvedHomeCollectionId": "",
+        "newsletterId": "",
+        "webCanonicalUrl": "",
+        "mediumUrl": "",
+        "migrationId": "",
+        "notifyFollowers": true,
+        "notifyTwitter": false,
+        "type": "Post"
+      },
       {
         "id": "c3a36f109054",
         "versionId": "bb7e32dc34fe",
@@ -36,8 +210,8 @@
         "experimentalCss": "",
         "displayAuthor": "",
         "virtuals": {
-          "createdAtRelative": "9 days ago",
-          "updatedAtRelative": "9 days ago",
+          "createdAtRelative": "2 months ago",
+          "updatedAtRelative": "2 months ago",
           "acceptedAtRelative": "",
           "createdAtEnglish": "April 22, 2016",
           "updatedAtEnglish": "April 22, 2016",
@@ -115,6 +289,8 @@
         "webCanonicalUrl": "",
         "mediumUrl": "",
         "migrationId": "",
+        "notifyFollowers": true,
+        "notifyTwitter": false,
         "type": "Post"
       },
       {
@@ -137,8 +313,8 @@
         "experimentalCss": "",
         "displayAuthor": "",
         "virtuals": {
-          "createdAtRelative": "a month ago",
-          "updatedAtRelative": "25 minutes ago",
+          "createdAtRelative": "2 months ago",
+          "updatedAtRelative": "a month ago",
           "acceptedAtRelative": "",
           "createdAtEnglish": "March 27, 2016",
           "updatedAtEnglish": "May 1, 2016",
@@ -171,17 +347,17 @@
             {
               "slug": "javascript",
               "name": "JavaScript",
-              "postCount": 12225,
+              "postCount": 14668,
               "virtuals": {
                 "isFollowing": false
               },
               "metadata": {
-                "followerCount": 10437,
-                "postCount": 12225,
+                "followerCount": 11839,
+                "postCount": 14668,
                 "coverImage": {
-                  "id": "1*bSMhqCAGeHAqbPS6qQMe5Q.jpeg",
-                  "originalWidth": 1920,
-                  "originalHeight": 1280
+                  "id": "0*0SiIhvqBgppG-ls9.png",
+                  "originalWidth": 1024,
+                  "originalHeight": 435
                 }
               },
               "type": "Tag"
@@ -189,18 +365,17 @@
             {
               "slug": "angular2",
               "name": "Angular2",
-              "postCount": 138,
+              "postCount": 195,
               "virtuals": {
                 "isFollowing": false
               },
               "metadata": {
-                "followerCount": 363,
-                "postCount": 138,
+                "followerCount": 463,
+                "postCount": 195,
                 "coverImage": {
-                  "id": "1*y3nCa669v3zccdw85ptzoQ.png",
-                  "originalWidth": 2000,
-                  "originalHeight": 532,
-                  "isFeatured": true
+                  "id": "1*SJYlbZ-HZt2-0Vp2xmVIXw.jpeg",
+                  "originalWidth": 1966,
+                  "originalHeight": 1549
                 }
               },
               "type": "Tag"
@@ -208,17 +383,17 @@
             {
               "slug": "web-development",
               "name": "Web Development",
-              "postCount": 13704,
+              "postCount": 16657,
               "virtuals": {
                 "isFollowing": false
               },
               "metadata": {
-                "followerCount": 10925,
-                "postCount": 13704,
+                "followerCount": 12420,
+                "postCount": 16657,
                 "coverImage": {
-                  "id": "1*i0igcKxDNrKYDp6gd_s_3g.jpeg",
-                  "originalWidth": 1000,
-                  "originalHeight": 787
+                  "id": "1*swrEZXQYr_JS9tG5vP0hYw.png",
+                  "originalWidth": 1179,
+                  "originalHeight": 801
                 }
               },
               "type": "Tag"
@@ -288,6 +463,8 @@
         "webCanonicalUrl": "",
         "mediumUrl": "",
         "migrationId": "",
+        "notifyFollowers": true,
+        "notifyTwitter": false,
         "type": "Post"
       },
       {
@@ -310,8 +487,8 @@
         "experimentalCss": "",
         "displayAuthor": "",
         "virtuals": {
-          "createdAtRelative": "4 months ago",
-          "updatedAtRelative": "4 months ago",
+          "createdAtRelative": "5 months ago",
+          "updatedAtRelative": "5 months ago",
           "acceptedAtRelative": "",
           "createdAtEnglish": "January 3, 2016",
           "updatedAtEnglish": "January 4, 2016",
@@ -344,17 +521,17 @@
             {
               "slug": "javascript",
               "name": "JavaScript",
-              "postCount": 12225,
+              "postCount": 14668,
               "virtuals": {
                 "isFollowing": false
               },
               "metadata": {
-                "followerCount": 10437,
-                "postCount": 12225,
+                "followerCount": 11839,
+                "postCount": 14668,
                 "coverImage": {
-                  "id": "1*bSMhqCAGeHAqbPS6qQMe5Q.jpeg",
-                  "originalWidth": 1920,
-                  "originalHeight": 1280
+                  "id": "0*0SiIhvqBgppG-ls9.png",
+                  "originalWidth": 1024,
+                  "originalHeight": 435
                 }
               },
               "type": "Tag"
@@ -362,17 +539,18 @@
             {
               "slug": "angularjs",
               "name": "Angularjs",
-              "postCount": 1356,
+              "postCount": 1580,
               "virtuals": {
                 "isFollowing": false
               },
               "metadata": {
-                "followerCount": 2246,
-                "postCount": 1356,
+                "followerCount": 2480,
+                "postCount": 1580,
                 "coverImage": {
-                  "id": "1*mgaMgcuv69sYE9x6my25Yw.png",
-                  "originalWidth": 1278,
-                  "originalHeight": 568
+                  "id": "1*aE40t8NcePLKWKjUx-8IgA.png",
+                  "originalWidth": 1742,
+                  "originalHeight": 1092,
+                  "isFeatured": true
                 }
               },
               "type": "Tag"
@@ -380,17 +558,17 @@
             {
               "slug": "web-development",
               "name": "Web Development",
-              "postCount": 13704,
+              "postCount": 16657,
               "virtuals": {
                 "isFollowing": false
               },
               "metadata": {
-                "followerCount": 10925,
-                "postCount": 13704,
+                "followerCount": 12420,
+                "postCount": 16657,
                 "coverImage": {
-                  "id": "1*i0igcKxDNrKYDp6gd_s_3g.jpeg",
-                  "originalWidth": 1000,
-                  "originalHeight": 787
+                  "id": "1*swrEZXQYr_JS9tG5vP0hYw.png",
+                  "originalWidth": 1179,
+                  "originalHeight": 801
                 }
               },
               "type": "Tag"
@@ -463,6 +641,8 @@
         "webCanonicalUrl": "",
         "mediumUrl": "",
         "migrationId": "",
+        "notifyFollowers": true,
+        "notifyTwitter": false,
         "type": "Post"
       },
       {
@@ -485,8 +665,8 @@
         "experimentalCss": "",
         "displayAuthor": "",
         "virtuals": {
-          "createdAtRelative": "4 months ago",
-          "updatedAtRelative": "4 months ago",
+          "createdAtRelative": "5 months ago",
+          "updatedAtRelative": "5 months ago",
           "acceptedAtRelative": "",
           "createdAtEnglish": "December 26, 2015",
           "updatedAtEnglish": "December 26, 2015",
@@ -564,6 +744,8 @@
         "webCanonicalUrl": "",
         "mediumUrl": "",
         "migrationId": "",
+        "notifyFollowers": true,
+        "notifyTwitter": false,
         "type": "Post"
       },
       {
@@ -586,8 +768,8 @@
         "experimentalCss": "",
         "displayAuthor": "",
         "virtuals": {
-          "createdAtRelative": "7 months ago",
-          "updatedAtRelative": "6 months ago",
+          "createdAtRelative": "9 months ago",
+          "updatedAtRelative": "7 months ago",
           "acceptedAtRelative": "",
           "createdAtEnglish": "September 25, 2015",
           "updatedAtEnglish": "November 9, 2015",
@@ -620,17 +802,17 @@
             {
               "slug": "game-development",
               "name": "Game Development",
-              "postCount": 1155,
+              "postCount": 1358,
               "virtuals": {
                 "isFollowing": false
               },
               "metadata": {
-                "followerCount": 1144,
-                "postCount": 1155,
+                "followerCount": 1233,
+                "postCount": 1358,
                 "coverImage": {
-                  "id": "1*rMjNETqKU9MfNGblSE7gHQ.jpeg",
-                  "originalWidth": 1920,
-                  "originalHeight": 1080
+                  "id": "1*DeiKjabeUsFcTYtUfH-SlQ.jpeg",
+                  "originalWidth": 1610,
+                  "originalHeight": 1207
                 }
               },
               "type": "Tag"
@@ -638,19 +820,18 @@
             {
               "slug": "software-development",
               "name": "Software Development",
-              "postCount": 6031,
+              "postCount": 7234,
               "virtuals": {
                 "isFollowing": false
               },
               "metadata": {
-                "followerCount": 4662,
-                "postCount": 6031,
+                "followerCount": 5306,
+                "postCount": 7234,
                 "coverImage": {
-                  "id": "1*IJlgGsOIpq0lKTdf6lZATA.png",
-                  "originalWidth": 1024,
-                  "originalHeight": 1024,
-                  "focusPercentX": 77,
-                  "focusPercentY": 26
+                  "id": "1*G9OlNgrdpE0uc-ZNYiqgzw.jpeg",
+                  "originalWidth": 2002,
+                  "originalHeight": 1280,
+                  "isFeatured": true
                 }
               },
               "type": "Tag"
@@ -658,17 +839,17 @@
             {
               "slug": "gaming",
               "name": "Gaming",
-              "postCount": 6357,
+              "postCount": 7947,
               "virtuals": {
                 "isFollowing": false
               },
               "metadata": {
-                "followerCount": 41294,
-                "postCount": 6357,
+                "followerCount": 80838,
+                "postCount": 7947,
                 "coverImage": {
-                  "id": "1*RrVd-ZgPoGefY5UL5elsCQ.png",
-                  "originalWidth": 3840,
-                  "originalHeight": 2033
+                  "id": "1*zbnDzeYH_mnlgTh6XzbL5g.jpeg",
+                  "originalWidth": 1920,
+                  "originalHeight": 1080
                 }
               },
               "type": "Tag"
@@ -738,6 +919,8 @@
         "webCanonicalUrl": "",
         "mediumUrl": "",
         "migrationId": "",
+        "notifyFollowers": true,
+        "notifyTwitter": false,
         "type": "Post"
       },
       {
@@ -761,8 +944,8 @@
         "displayAuthor": "",
         "virtuals": {
           "statusForCollection": "APPROVED",
-          "createdAtRelative": "8 months ago",
-          "updatedAtRelative": "7 months ago",
+          "createdAtRelative": "9 months ago",
+          "updatedAtRelative": "8 months ago",
           "acceptedAtRelative": "",
           "createdAtEnglish": "August 29, 2015",
           "updatedAtEnglish": "October 2, 2015",
@@ -796,17 +979,17 @@
             {
               "slug": "web-development",
               "name": "Web Development",
-              "postCount": 13704,
+              "postCount": 16657,
               "virtuals": {
                 "isFollowing": false
               },
               "metadata": {
-                "followerCount": 10925,
-                "postCount": 13704,
+                "followerCount": 12420,
+                "postCount": 16657,
                 "coverImage": {
-                  "id": "1*i0igcKxDNrKYDp6gd_s_3g.jpeg",
-                  "originalWidth": 1000,
-                  "originalHeight": 787
+                  "id": "1*swrEZXQYr_JS9tG5vP0hYw.png",
+                  "originalWidth": 1179,
+                  "originalHeight": 801
                 }
               },
               "type": "Tag"
@@ -814,17 +997,17 @@
             {
               "slug": "javascript",
               "name": "JavaScript",
-              "postCount": 12225,
+              "postCount": 14668,
               "virtuals": {
                 "isFollowing": false
               },
               "metadata": {
-                "followerCount": 10437,
-                "postCount": 12225,
+                "followerCount": 11839,
+                "postCount": 14668,
                 "coverImage": {
-                  "id": "1*bSMhqCAGeHAqbPS6qQMe5Q.jpeg",
-                  "originalWidth": 1920,
-                  "originalHeight": 1280
+                  "id": "0*0SiIhvqBgppG-ls9.png",
+                  "originalWidth": 1024,
+                  "originalHeight": 435
                 }
               },
               "type": "Tag"
@@ -832,17 +1015,17 @@
             {
               "slug": "gaming",
               "name": "Gaming",
-              "postCount": 6357,
+              "postCount": 7947,
               "virtuals": {
                 "isFollowing": false
               },
               "metadata": {
-                "followerCount": 41294,
-                "postCount": 6357,
+                "followerCount": 80838,
+                "postCount": 7947,
                 "coverImage": {
-                  "id": "1*RrVd-ZgPoGefY5UL5elsCQ.png",
-                  "originalWidth": 3840,
-                  "originalHeight": 2033
+                  "id": "1*zbnDzeYH_mnlgTh6XzbL5g.jpeg",
+                  "originalWidth": 1920,
+                  "originalHeight": 1080
                 }
               },
               "type": "Tag"
@@ -912,13 +1095,15 @@
         "webCanonicalUrl": "",
         "mediumUrl": "",
         "migrationId": "",
+        "notifyFollowers": true,
+        "notifyTwitter": false,
         "type": "Post"
       }
     ],
     "references": {
       "Social": {
         "bb25a5c8f53b": {
-          "userId": "lo_191d96bd20f8",
+          "userId": "lo_556446c57c9a",
           "targetUserId": "bb25a5c8f53b",
           "type": "Social"
         }
@@ -937,7 +1122,7 @@
           "name": "David Meza",
           "username": "DavidMe93",
           "createdAt": 1436761178782,
-          "lastPostCreatedAt": 1461347845667,
+          "lastPostCreatedAt": 1464273646782,
           "imageId": "0*dosdxo9R9evMDmU5.jpeg",
           "backgroundImageId": "",
           "bio": "Human being, son of two parents, eats food, breathes for a living, can speak, has 10/10 fingers and toes, wait... maybe.",
@@ -951,7 +1136,7 @@
           "name": "Dan Kim",
           "username": "lateplate",
           "createdAt": 1438973290184,
-          "lastPostCreatedAt": 1461345658863,
+          "lastPostCreatedAt": 1465315422732,
           "imageId": "1*54WwuU7CdhvSYPL5t9DDCw.jpeg",
           "backgroundImageId": "",
           "bio": "Android Programmer at Basecamp | https://twitter.com/dankim",
@@ -965,10 +1150,10 @@
           "name": "Jon Westenberg",
           "username": "jonwestenberg",
           "createdAt": 1395535033970,
-          "lastPostCreatedAt": 1462140182022,
+          "lastPostCreatedAt": 1465544366055,
           "imageId": "1*t6Kg6_1BJqnIGOteYwT-4g.jpeg",
           "backgroundImageId": "",
-          "bio": "Writer, founder, passionate entrepreneur + I'm on a mission to build businesses, change the world and create entrepreneurs - www.jonwestenberg.com",
+          "bio": "If I die, turn my tweets into a book. www.jonwestenberg.com",
           "twitterScreenName": "Jonwestenberg",
           "facebookAccountId": "",
           "allowNotes": 1,
@@ -1043,9 +1228,9 @@
             "width": 0
           },
           "metadata": {
-            "followerCount": 21043,
+            "followerCount": 27098,
             "postCount": 108,
-            "activeAt": 1461861598122
+            "activeAt": 1465509336014
           },
           "virtuals": {
             "permissions": {
@@ -1059,7 +1244,10 @@
               "canAddWriters": false,
               "canViewStats": false,
               "canSendNewsletter": false,
-              "canViewLockedPosts": false
+              "canViewLockedPosts": false,
+              "canViewCloaked": false,
+              "canEditOwnPosts": false,
+              "canBeAssignedAuthor": false
             },
             "isSubscribed": false,
             "isNewsletterSubscribed": false,
@@ -1084,7 +1272,7 @@
               "type": 2,
               "collectionHeaderMetadata": {
                 "title": "Signal v. Noise",
-                "description": "Strong opinions and shared thoughts on design, business, and tech. By the makers (and friends) of Basecamp. Since ‘99.",
+                "description": "Strong opinions and shared thoughts on design, business, and tech. By the makers (and friends) of Basecamp. Since 1999.",
                 "backgroundImage": {},
                 "logoImage": {
                   "id": "1*bpxmMpSKLs86DZWiP-_mnw@2x.png",
@@ -1104,7 +1292,7 @@
                 "number": 5,
                 "postIds": [
                   "edff4a896a83",
-                  "d4ac3dd2defe",
+                  "c711c330fc2e",
                   "fa6d4c8cff4e",
                   "744659addf7d",
                   "41adf356857f"
@@ -1192,6 +1380,8 @@
           "navItems": [],
           "fullTextRssFeed": 0,
           "colorBehavior": 1,
+          "instantArticlesState": 0,
+          "acceleratedMobilePagesState": 0,
           "type": "Collection"
         },
         "b230ea2a6eb8": {
@@ -1217,9 +1407,9 @@
             "width": 0
           },
           "metadata": {
-            "followerCount": 108798,
+            "followerCount": 123673,
             "postCount": 2180,
-            "activeAt": 1462150565388
+            "activeAt": 1465568161705
           },
           "virtuals": {
             "permissions": {
@@ -1233,7 +1423,10 @@
               "canAddWriters": false,
               "canViewStats": false,
               "canSendNewsletter": false,
-              "canViewLockedPosts": false
+              "canViewLockedPosts": false,
+              "canViewCloaked": false,
+              "canEditOwnPosts": false,
+              "canBeAssignedAuthor": false
             },
             "isSubscribed": false,
             "isNewsletterSubscribed": false,
@@ -1470,36 +1663,42 @@
               "type": 1,
               "title": "Tech",
               "tagSlug": "tech",
+              "url": "https://medium.com/life-learning/tagged/tech",
               "source": "tagSlug"
             },
             {
               "type": 1,
               "title": "Startup",
               "tagSlug": "startup",
+              "url": "https://medium.com/life-learning/tagged/startup",
               "source": "tagSlug"
             },
             {
               "type": 1,
               "title": "Entrepreneurship",
               "tagSlug": "entrepreneurship",
+              "url": "https://medium.com/life-learning/tagged/entrepreneurship",
               "source": "tagSlug"
             },
             {
               "type": 1,
               "title": "Business",
               "tagSlug": "business",
+              "url": "https://medium.com/life-learning/tagged/business",
               "source": "tagSlug"
             },
             {
               "type": 1,
               "title": "Life",
               "tagSlug": "life",
+              "url": "https://medium.com/life-learning/tagged/life",
               "source": "tagSlug"
             },
             {
               "type": 1,
               "title": "Life Lessons",
               "tagSlug": "life-lessons",
+              "url": "https://medium.com/life-learning/tagged/life-lessons",
               "source": "tagSlug"
             }
           ],
@@ -1532,9 +1731,9 @@
             "width": 0
           },
           "metadata": {
-            "followerCount": 752,
+            "followerCount": 796,
             "postCount": 43,
-            "activeAt": 1461334047713
+            "activeAt": 1462926716689
           },
           "virtuals": {
             "permissions": {
@@ -1548,7 +1747,10 @@
               "canAddWriters": false,
               "canViewStats": false,
               "canSendNewsletter": false,
-              "canViewLockedPosts": false
+              "canViewLockedPosts": false,
+              "canViewCloaked": false,
+              "canEditOwnPosts": false,
+              "canBeAssignedAuthor": false
             },
             "isSubscribed": false,
             "isNewsletterSubscribed": false,
@@ -1670,6 +1872,7 @@
               "backgroundColor": "#FFFFFFFF"
             }
           },
+          "navItems": [],
           "fullTextRssFeed": 0,
           "type": "Collection"
         }
@@ -1702,8 +1905,8 @@
           },
           "virtuals": {
             "statusForCollection": "APPROVED",
-            "createdAtRelative": "a month ago",
-            "updatedAtRelative": "24 days ago",
+            "createdAtRelative": "2 months ago",
+            "updatedAtRelative": "2 months ago",
             "acceptedAtRelative": "",
             "createdAtEnglish": "March 31, 2016",
             "updatedAtEnglish": "April 7, 2016",
@@ -1733,23 +1936,23 @@
             "latestPublishedAtAbbreviated": "Apr 2",
             "firstPublishedAtAbbreviated": "Apr 2",
             "emailSnippet": "Still, I take pride in the fact that I’m a good, solid programmer. One who works hard at his craft and really enjoys it, even without the fancy labels. ¶\n\nYet every week I see a call for ninja programmers, who I assume slice lines of code with incredible precision. I read about tech rock stars, who I imagine write functions as beautiful as the “Stairway to Heaven” solo. I hear people throw around the word hacker (and the associated hack, hackfest, and hackathon) as if haphazardly chopping…",
-            "recommends": 1737,
+            "recommends": 2021,
             "isBookmarked": false,
             "tags": [
               {
                 "slug": "programming",
                 "name": "Programming",
-                "postCount": 13410,
+                "postCount": 15976,
                 "virtuals": {
                   "isFollowing": false
                 },
                 "metadata": {
-                  "followerCount": 11102,
-                  "postCount": 13410,
+                  "followerCount": 12890,
+                  "postCount": 15976,
                   "coverImage": {
-                    "id": "1*20Tzku70NBrLgBw6Z7snaQ.jpeg",
-                    "originalWidth": 1080,
-                    "originalHeight": 1080
+                    "id": "1*dTe3vntI9r6BiEcmHz9VkA.jpeg",
+                    "originalWidth": 1920,
+                    "originalHeight": 817
                   }
                 },
                 "type": "Tag"
@@ -1757,17 +1960,17 @@
               {
                 "slug": "jobs",
                 "name": "Jobs",
-                "postCount": 5742,
+                "postCount": 6871,
                 "virtuals": {
                   "isFollowing": false
                 },
                 "metadata": {
-                  "followerCount": 30733,
-                  "postCount": 5742,
+                  "followerCount": 42295,
+                  "postCount": 6871,
                   "coverImage": {
-                    "id": "1*zcXJNfgnPIHs4Kb288PMUg.png",
-                    "originalWidth": 2265,
-                    "originalHeight": 314
+                    "id": "1*lSLnry5AVVXr2cvyqc2L0A.jpeg",
+                    "originalWidth": 1920,
+                    "originalHeight": 1080
                   }
                 },
                 "type": "Tag"
@@ -1775,26 +1978,25 @@
               {
                 "slug": "software-development",
                 "name": "Software Development",
-                "postCount": 6031,
+                "postCount": 7234,
                 "virtuals": {
                   "isFollowing": false
                 },
                 "metadata": {
-                  "followerCount": 4662,
-                  "postCount": 6031,
+                  "followerCount": 5306,
+                  "postCount": 7234,
                   "coverImage": {
-                    "id": "1*IJlgGsOIpq0lKTdf6lZATA.png",
-                    "originalWidth": 1024,
-                    "originalHeight": 1024,
-                    "focusPercentX": 77,
-                    "focusPercentY": 26
+                    "id": "1*G9OlNgrdpE0uc-ZNYiqgzw.jpeg",
+                    "originalWidth": 2002,
+                    "originalHeight": 1280,
+                    "isFeatured": true
                   }
                 },
                 "type": "Tag"
               }
             ],
             "socialRecommendsCount": 0,
-            "responsesCreatedCount": 104,
+            "responsesCreatedCount": 113,
             "links": {
               "entries": [
                 {
@@ -1891,6 +2093,8 @@
           "webCanonicalUrl": "",
           "mediumUrl": "",
           "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": false,
           "type": "Post"
         },
         "1f126068f6d8": {
@@ -1920,8 +2124,8 @@
           },
           "virtuals": {
             "statusForCollection": "APPROVED",
-            "createdAtRelative": "4 months ago",
-            "updatedAtRelative": "4 months ago",
+            "createdAtRelative": "6 months ago",
+            "updatedAtRelative": "6 months ago",
             "acceptedAtRelative": "",
             "createdAtEnglish": "December 17, 2015",
             "updatedAtEnglish": "December 22, 2015",
@@ -1949,23 +2153,23 @@
             "latestPublishedAtAbbreviated": "Dec 17, 2015",
             "firstPublishedAtAbbreviated": "Dec 17, 2015",
             "emailSnippet": "I know we all want to do important things. We all want to work on important products, start important companies and accomplish tasks that could change the world and have an enormous impact. I see this in entrepreneurs and the tech community more than anywhere else. ¶\n\nThe question we ask, whenever we hear about a new business or idea, whether it’s renewable energy or a messaging app or a fucking hamster sled, is this: ¶\n\nWill it scale?",
-            "recommends": 3596,
+            "recommends": 3728,
             "isBookmarked": false,
             "tags": [
               {
                 "slug": "startup",
                 "name": "Startup",
-                "postCount": 74323,
+                "postCount": 94164,
                 "virtuals": {
                   "isFollowing": false
                 },
                 "metadata": {
-                  "followerCount": 238325,
-                  "postCount": 74323,
+                  "followerCount": 288966,
+                  "postCount": 94164,
                   "coverImage": {
-                    "id": "1*B7CKEm76MInjxpNkpq-oGQ.jpeg",
-                    "originalWidth": 1612,
-                    "originalHeight": 808
+                    "id": "1*W8Prs1jnm9ndjIm9HtD7fw.jpeg",
+                    "originalWidth": 4792,
+                    "originalHeight": 3195
                   }
                 },
                 "type": "Tag"
@@ -1973,17 +2177,17 @@
               {
                 "slug": "entrepreneurship",
                 "name": "Entrepreneurship",
-                "postCount": 52591,
+                "postCount": 63629,
                 "virtuals": {
                   "isFollowing": false
                 },
                 "metadata": {
-                  "followerCount": 221110,
-                  "postCount": 52591,
+                  "followerCount": 273258,
+                  "postCount": 63629,
                   "coverImage": {
-                    "id": "1*_dWFMwP7CEp6ue09ACaYYA.jpeg",
-                    "originalWidth": 600,
-                    "originalHeight": 319
+                    "id": "1*szn88ZbQW4x70rcuBULV7w.png",
+                    "originalWidth": 1400,
+                    "originalHeight": 1049
                   }
                 },
                 "type": "Tag"
@@ -1991,24 +2195,24 @@
               {
                 "slug": "business",
                 "name": "Business",
-                "postCount": 26672,
+                "postCount": 32382,
                 "virtuals": {
                   "isFollowing": false
                 },
                 "metadata": {
-                  "followerCount": 272134,
-                  "postCount": 26672,
+                  "followerCount": 337090,
+                  "postCount": 32382,
                   "coverImage": {
-                    "id": "1*bUnzLePRb7E25uoUEMYQgA.png",
-                    "originalWidth": 1189,
-                    "originalHeight": 589
+                    "id": "1*dTe3vntI9r6BiEcmHz9VkA.jpeg",
+                    "originalWidth": 1920,
+                    "originalHeight": 817
                   }
                 },
                 "type": "Tag"
               }
             ],
             "socialRecommendsCount": 0,
-            "responsesCreatedCount": 167,
+            "responsesCreatedCount": 177,
             "links": {
               "entries": [],
               "version": "0.1"
@@ -2077,11 +2281,13 @@
           "webCanonicalUrl": "",
           "mediumUrl": "",
           "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": false,
           "type": "Post"
         }
       }
     }
   },
   "v": 3,
-  "b": "21310-3d56473"
+  "b": "22173-632e748"
 }
