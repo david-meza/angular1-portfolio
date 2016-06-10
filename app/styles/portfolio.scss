@@ -274,6 +274,9 @@ p {
   .mouse {
     position: absolute;
     bottom: 15px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     color: $light-white;
     height: 60px;
     width: 40px;
