@@ -262,6 +262,13 @@ p {
   height: 100%;
 }
 
+.experience-content {
+  .experience-dates {
+    font-size: 14px;
+    color: rgba($black, 0.5);
+  }
+}
+
 .about-content {
   overflow-x: hidden;
   position: relative;
