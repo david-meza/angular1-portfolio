@@ -4,16 +4,6 @@
 
   <div class="layout-row layout-wrap layout-align-center-stretch">
     <md-card ng-repeat="project in projects" flex="100" flex-gt-sm="45" flex-gt-md="30">
-      <md-card-header>
-        <md-card-avatar>
-          <md-icon class="md-avatar-icon" md-svg-icon="menu"></md-icon>
-        </md-card-avatar>
-        <md-card-header-text>
-          <span class="md-title">Title</span>
-          <span class="md-subhead">subhead</span>
-        </md-card-header-text>
-      </md-card-header>
-      <!-- <img ng-src="{{ ::project.image }}" fallback-src loading-src class="md-card-image" alt="Project image"> -->
       <md-card-title>
         <md-card-title-text>
           <span class="md-headline">{{ ::project.name }}</span>

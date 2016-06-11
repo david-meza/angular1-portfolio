@@ -7,7 +7,6 @@
 
       $scope.projects = githubService.getProjects();
 
-
   }]);
 
 })(window.angular);

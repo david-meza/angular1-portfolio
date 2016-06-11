@@ -7,6 +7,7 @@
 
       var ENDPOINT = '/users/david-meza/repos?sort=pushed&type=all';
       var _repos = [];
+      var successfullyRequestedRepos = false;
 
       function getRepos() {
         return $http.get('https://api.github.com' + ENDPOINT);
@@ -15,6 +16,7 @@
       function extractFeatures(response) {
         if (response.status >= 200 && response.status < 300) {
           angular.forEach(response.data, extractIndividualRepo, _repos);
+          successfullyRequestedRepos = true;
           return _repos;
         } else {
           return logError(response);
@@ -49,6 +51,7 @@
       }
 
       function getProjects() {
+        if (successfullyRequestedRepos) { return _repos; }
         getRepos().then(extractFeatures, logError);
         return _repos;
       }
