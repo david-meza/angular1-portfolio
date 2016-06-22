@@ -12,7 +12,7 @@
         { icon: 'social:github',          name: 'Github',         url: 'https://github.com/david-meza'},
         { icon: 'social:linkedin',        name: 'LinkedIn',       url: 'https://www.linkedin.com/in/jdavidmeza'},
         { icon: 'social:twitter',         name: 'Twitter',        url: 'https://twitter.com/DavidMe93'},
-        { icon: 'social:email',           name: 'Email',          url: 'mailto:hello@david-meza.com'}
+        { icon: 'social:email',           name: 'Email',          url: 'mailto:hello@david-meza.com?subject=Found you on david-meza.com'}
       ];
 
   }]);
