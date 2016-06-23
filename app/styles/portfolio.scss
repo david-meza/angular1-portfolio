@@ -336,14 +336,17 @@ p {
   }
 
   .parallax-1 {
-    background: rgba(0,188,212,0.6) url('/img/wilmington.jpg') no-repeat fixed center;
-    background-size: cover;
+    background: rgba(0,188,212,0.6) url('/img/wilmington.jpg') no-repeat center;
     background-position-x: 0;
   }
-
+  
   .parallax-2 {
-    background: rgba(0,188,212,0.6) url('/img/winter.jpg') no-repeat fixed center;
+    background: rgba(0,188,212,0.6) url('/img/winter.jpg') no-repeat center;
+  }
+
+  .parallax-1, .parallax-2 {
     background-size: cover;
+    background-attachment: initial;
   }
 
   .background-wrapper, .pos-abs {
