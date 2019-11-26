@@ -1,4 +1,3 @@
-[![Stories in Ready](https://badge.waffle.io/david-meza/angular1-portfolio.png?label=ready&title=Ready)](https://waffle.io/david-meza/angular1-portfolio)
 # Angular 1 Portfolio
 
 My portfolio using Angular 1 and Angular Material
